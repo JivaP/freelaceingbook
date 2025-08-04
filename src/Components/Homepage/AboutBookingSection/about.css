@@ -1,0 +1,52 @@
+.about-us-section {
+    padding: 60px 20px;
+    /* background-color: #f9f9f9    ; */
+}
+
+.about-title,
+.form-heading {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+}
+
+.about-description {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.services-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+}
+
+.services-list {
+    padding-left: 20px;
+    list-style: square;
+    color: #444;
+}
+
+.service-item {
+    margin-bottom: 5px;
+}
+
+.about-footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 15px;
+}
+
+.booking-form .MuiTextField-root {
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 10px;
+}

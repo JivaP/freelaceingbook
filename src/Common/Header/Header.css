@@ -1,0 +1,12 @@
+.list-menu__link {
+    /* position: relative; */
+    display: inline-block;
+    padding: 28px 0px;
+    margin: 0px 12px;
+    font-size: 0.85714rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden
+}
