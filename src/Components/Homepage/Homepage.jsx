@@ -7,6 +7,7 @@ import Servicesmain from './ServicesSection/Servicesmain'
 import { Box } from '@mui/material'
 import CelebrityProjects from './Celebrities/CelebrityProjects'
 import Bookingmain from './Book-Now/bookingmain'
+import CelebrityGrid from './CelebrityGrid/CelebrityGrid'
 
 
 export default function Homepage() {
@@ -22,6 +23,7 @@ export default function Homepage() {
             <Servicesmain />
             <CelebrityProjects />
             <Bookingmain />
+            <CelebrityGrid />
 
         </>
     )

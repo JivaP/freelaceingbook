@@ -27,7 +27,7 @@ const Footer = () => {
                         </Typography>
                         <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
                             <LocationOnIcon sx={{ mr: 1, mt: '3px' }} />
-                            <Typography variant="body2" component="address" sx={{  fontFamily: 'Lato' }}>
+                            <Typography variant="body2" component="address" sx={{ fontFamily: 'Lato' }}>
                                 Platinum Towers
                                 <br />Off Juhu Lane
                                 <br />Andheri West
@@ -52,12 +52,12 @@ const Footer = () => {
                         </Typography>
                         <Grid container spacing={1}>
                             {[
-                                'img/instagram/item1.jpg',
-                                'img/instagram/item2.jpg',
-                                'img/instagram/item3.jpg',
-                                'img/instagram/item4.jpg',
-                                'img/instagram/item5.jpg',
-                                'img/instagram/item6.jpg',
+                                '/assert/Celebrities/Divyanka.jpg',
+                                '/assert/footer/item2.jpg',
+                                '/assert/footer/item3.jpg',
+                                '/assert/footer/item4.jpg',
+                                '/assert/footer/item5.jpg',
+                                '/assert/footer/item6.jpg',
                             ].map((src, i) => (
                                 <Grid size={{ xs: 4, sm: 4, md: 4 }} key={i}>
                                     <Link href="#" underline="none" sx={{ display: 'block' }}>

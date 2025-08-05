@@ -254,7 +254,7 @@ export default function TeamMembers() {
                                         sx={{
                                             border: '1px solid #e30f5f',
                                             color: '#e30f5f',
-                                            overflow: 'hidden',
+                                            overflow: 'hidden', p: 2,
                                             borderRadius: "12px",
                                             transition: 'all 0.4s ease-in-out',
                                             '&:hover': {

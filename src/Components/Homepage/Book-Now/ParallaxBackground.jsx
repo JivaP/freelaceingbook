@@ -1,46 +1,48 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 
-const ParallaxBackground = () => {
-    // Get scroll position
+const ParallaxBackground = ({ image }) => {
     const { scrollY } = useScroll();
 
-    // Map scrollY from [0, 500] to translateY [0, 120] px (adjust for speed)
-    const y = useTransform(scrollY, [0, 500], [0, 120]);
+    // Parallax vertical movement
+    const y = useTransform(scrollY, [0, 500], [0, 150]);
+
+    // Opacity changes from 0 when scrollY=0 to 1 when scrollY >= 50px
+    const opacityRaw = useTransform(scrollY, [0, 50], [0, 1]);
+
+    // Use spring to smooth opacity transition
+    const opacity = useSpring(opacityRaw, { stiffness: 100, damping: 20 });
 
     return (
         <Box
-            id="jarallax-container-1"
             sx={{
-                position: 'absolute',
+                position: 'fixed',
                 top: 0,
                 left: 0,
-                width: '100%',
-                height: '100%',
+                width: '100vw',
+                height: '100vh',
                 overflow: 'hidden',
-                pointerEvents: 'none',
-                visibility: 'visible',
                 zIndex: -100,
+                pointerEvents: 'none',
             }}
         >
             <motion.div
                 style={{
-                    backgroundImage: 'url("https://celebsbooking.com/img/backgrounds/background33.jpg")',
-                    backgroundPosition: '50% 50%',
+                    width: '120vw',
+                    height: '120vh',
+                    marginLeft: '-10vw',
+                    marginTop: '-10vh',
+                    backgroundImage: `url("${image}")`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    position: 'fixed',
-                    top: 0,
-                    left: 0,
-                    width: '3000px',      // slightly bigger to cover screen + parallax shift
-                    height: '1700px',
-                    marginLeft: '-990px', // center horizontally
-                    marginTop: '-480px',  // center vertically
+                    backgroundPosition: 'center center',
+                    y,
+                    opacity,       // Animate opacity based on scroll
+                    willChange: 'transform, opacity',
                     pointerEvents: 'none',
-                    translateY: y,        // animate vertical translate on scroll
-                    willChange: 'transform',
-                    visibility: 'visible',
+                    userSelect: 'none',
+                    zIndex: -100,
                 }}
             />
         </Box>

@@ -1,49 +1,102 @@
+// import React from 'react';
+// import { Box } from '@mui/material';
+// import { motion, useScroll, useTransform } from 'framer-motion';
+
+// const ParallaxBackground = (image) => {
+//     console.log("Parallax Background Image:", image);
+
+//     const { scrollY } = useScroll();
+//     const y = useTransform(scrollY, [0, 500], [0, 150]); // Adjust the range for speed
+
+//     return (
+//         <Box
+//             sx={{
+//                 position: 'relative',
+//                 width: '100%',
+//                 // height: '100vh',
+//                 overflow: 'hidden',
+//                 zIndex: -100,
+//             }}
+//         >
+//             {/* Parallax Background Image */}
+//             <motion.div
+//                 style={{
+//                     position: "fixed",
+//                     top: 0,
+//                     left: 0,
+//                     width: '120vw',
+//                     height: '80vh',
+//                     backgroundImage: `url("${image?.image}")`,
+//                     backgroundSize: '100%',
+//                     backgroundRepeat: 'no-repeat',
+//                     backgroundPosition: 'center',
+//                     marginLeft: '-10vw',
+//                     marginTop: '-10vh',
+//                     pointerEvents: 'none',
+//                     zIndex: -100,
+//                     backgroundPosition: "50% 50%",
+//                     transform: "translate3d(0px, -1.24752px, 0px)",
+//                     visibility: "visible",
+
+//                     y, // Parallax scroll effect
+//                 }}
+//             />
+
+//             {/* White Overlay */}
+
+//         </Box>
+//     );
+// };
+
+// export default ParallaxBackground;
+
 import React from 'react';
 import { Box } from '@mui/material';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 
-const ParallaxBackground = (image) => {
-    console.log("Parallax Background Image:", image);
-
+const ParallaxBackground = ({ image }) => {
     const { scrollY } = useScroll();
-    const y = useTransform(scrollY, [0, 500], [0, 150]); // Adjust the range for speed
+
+    // Parallax vertical movement
+    const y = useTransform(scrollY, [0, 500], [0, 150]);
+
+    // Opacity changes from 0 when scrollY=0 to 1 when scrollY >= 50px
+    const opacityRaw = useTransform(scrollY, [0, 50], [0, 1]);
+
+    // Use spring to smooth opacity transition
+    const opacity = useSpring(opacityRaw, { stiffness: 100, damping: 20 });
 
     return (
         <Box
             sx={{
-                position: 'relative',
-                width: '100%',
-                // height: '100vh',
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                width: '100vw',
+                height: '100vh',
                 overflow: 'hidden',
                 zIndex: -100,
+                pointerEvents: 'none',
             }}
         >
-            {/* Parallax Background Image */}
             <motion.div
                 style={{
-                    position: "fixed",
-                    top: 0,
-                    left: 0,
                     width: '120vw',
-                    height: '80vh',
-                    backgroundImage: `url("${image?.image}")`,
-                    backgroundSize: '100%',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center',
+                    height: '120vh',
                     marginLeft: '-10vw',
                     marginTop: '-10vh',
+                    backgroundImage: `url("${image}")`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center center',
+                    y,
+                    // opacity,       // Animate opacity based on scroll
+                    willChange: 'transform, opacity',
                     pointerEvents: 'none',
+                    userSelect: 'none',
                     zIndex: -100,
-                    backgroundPosition: "50% 50%",
-                    transform: "translate3d(0px, -1.24752px, 0px)",
-                    visibility: "visible",
-
-                    y, // Parallax scroll effect
                 }}
             />
-
-            {/* White Overlay */}
-            
         </Box>
     );
 };
