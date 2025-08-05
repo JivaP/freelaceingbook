@@ -239,6 +239,7 @@ import {
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import "../../App.css"
 
 const navItems = [
     { label: 'Home', path: '/' },
@@ -281,13 +282,14 @@ export default function CustomHeader() {
     }, [mobileOpen]);
 
     return (
-        <Box>
+        <Box sx={{
+            bgcolor: '#000000',
+            px: 2,
+            py: 2
+        }}>
             {/* Top Social Icons Bar */}
             <Box
-                sx={{
-                    bgcolor: '#000000',
-                    px: 2,
-                }}
+
             >
                 <Container>
                     <Box display="flex" justifyContent="start" gap={1}>
@@ -304,12 +306,12 @@ export default function CustomHeader() {
                 position="sticky"
                 sx={{
                     bgcolor: '#000000',
-                    zIndex: (theme) => theme.zIndex.drawer + 1,
+                    // zIndex: (theme) => theme.zIndex.drawer + 1,
                 }}
                 elevation={1}
             >
                 <Container>
-                    <Toolbar disableGutters sx={{ justifyContent: 'space-between' }}>
+                    <Toolbar disableGutters sx={{ justifyContent: 'space-between', zIndex: 999 }}>
                         {/* Logo */}
                         <motion.div
                             initial={{ opacity: 0, y: -20 }}
@@ -429,6 +431,7 @@ export default function CustomHeader() {
                                         key={idx}
                                         component={Link}
                                         to={subItem.path}
+
                                         onClick={handleMenuClose}
                                     >
                                         {subItem.label}
@@ -451,7 +454,7 @@ export default function CustomHeader() {
             <Drawer anchor="left" open={mobileOpen} onClose={toggleMobileDrawer}>
                 <Box
                     sx={{
-                        width: 250,
+                        width: 430,
                         bgcolor: '#000',
                         height: '100%',
                         color: '#fff',
@@ -475,17 +478,44 @@ export default function CustomHeader() {
                                                     key={idx}
                                                     component={Link}
                                                     to={subItem.path}
-                                                    sx={{ pl: 4 }}
+                                                    sx={{ pl: 4, fontFamily: 'Lato', }}
                                                 >
-                                                    <ListItemText primary={subItem.label} />
+                                                    <ListItemText primary={subItem.label} sx={{ fontFamily: 'Lato', }} />
                                                 </ListItem>
                                             ))}
                                         </List>
                                     </Collapse>
                                 </React.Fragment>
                             ) : (
-                                <ListItem button key={index} component={Link} to={item.path}>
-                                    <ListItemText primary={item.label} />
+                                <ListItem button key={index} component={Link} to={item.path} sx={{ fontFamily: 'Lato', }}>
+                                    <ListItemText primary={item.label} sx={{
+                                        fontFamily: 'Lato',
+                                        textTransform: 'capitalize',
+                                        color: 'white',
+                                        fontWeight: 400,
+                                        fontSize: '14px',
+                                        lineHeight: '20px',
+                                        position: 'relative',
+                                        paddingBottom: '4px',
+                                        '&::after': {
+                                            content: '""',
+                                            position: 'absolute',
+                                            width: '100%',
+                                            height: '2px',
+                                            backgroundColor: '#e30f5f',
+                                            bottom: 0,
+                                            left: 0,
+                                            transform: 'scaleX(0)',
+                                            transformOrigin: 'left',
+                                            transition: 'transform 0.3s ease',
+                                        },
+                                        '&:hover': {
+                                            color: '#e30f5f',
+                                            '&::after': {
+                                                transform: 'scaleX(1)',
+                                            },
+                                        },
+                                    }} />
                                 </ListItem>
                             )
                         )}

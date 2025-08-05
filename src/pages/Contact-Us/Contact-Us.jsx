@@ -2,12 +2,11 @@
 // import React from 'react'
 // import ParallaxBackground from '../../Common/ParallaxBackground'
 
-
-// export default function Singers() {
+// export default function ContactUs() {
 //     return (
 //         <>
 //             <Box sx={{ position: 'relative', minHeight: '50vh', overflow: 'hidden' }}>
-//                 <ParallaxBackground image={"/assert/team/background1.jpg"} />
+//                 <ParallaxBackground image={"/assert/book-now/deepika_bg.jpg"} />
 //                 <Box
 //                     sx={{
 //                         position: 'absolute',
@@ -20,10 +19,9 @@
 //                     }}
 //                 />
 //                 <Box sx={{ position: 'relative', zIndex: 2, textAlign: "center", top: 100, bottom: 100, fontSize: 50, color: "rgb(227, 15, 95)", fontFamily: "Montserrat", fontWeight: 700 }}>
-//                     Hire Professional Singers
+//                     ENQUIRY FORM
 //                 </Box>
 //             </Box>
-
 //         </>
 //     )
 // }
@@ -31,12 +29,12 @@ import { Box, Typography } from '@mui/material';
 import React from 'react';
 import ParallaxBackground from '../../Common/ParallaxBackground';
 
-export default function Singers() {
+export default function ContactUs() {
     return (
         <>
             <Box sx={{ position: 'relative', minHeight: '50vh', overflow: 'hidden' }}>
-                {/* Parallax Background */}
-                <ParallaxBackground image={"/assert/team/background1.jpg"} />
+                {/* Parallax Background Image */}
+                <ParallaxBackground image={"/assert/book-now/deepika_bg.jpg"} />
 
                 {/* Overlay */}
                 <Box
@@ -51,7 +49,7 @@ export default function Singers() {
                     }}
                 />
 
-                {/* Responsive Centered Text */}
+                {/* Responsive Text Content */}
                 <Box
                     sx={{
                         position: 'absolute',
@@ -70,15 +68,15 @@ export default function Singers() {
                             fontSize: {
                                 xs: '1.8rem',
                                 sm: '2.5rem',
-                                md: '3.2rem',
+                                md: '3.5rem',
                                 lg: '3rem',
                             },
                             color: 'rgb(227, 15, 95)',
                             fontFamily: 'Montserrat',
-                            fontWeight: 700,
+                            fontWeight: 600,
                         }}
                     >
-                        Hire Professional Singers
+                        ENQUIRY FORM
                     </Typography>
                 </Box>
             </Box>

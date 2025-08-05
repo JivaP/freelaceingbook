@@ -9,6 +9,7 @@ import CelebrityMain from './pages/celebrities/CelebrityMain';
 import SingersMain from './pages/singers/singersMain';
 import Booknow from './pages/book-now/booknow';
 import Bookmain from './pages/book-now/Bookmain';
+import ContactMain from './pages/Contact-Us/ContactMain';
 // import Home from './pages/Home';
 // import AboutUs from './pages/AboutUs';
 // import Services from './pages/Services';
@@ -27,7 +28,7 @@ function App() {
           <Route path="celebrities" element={<CelebrityMain />} />
           <Route path="singers" element={<SingersMain />} />
           <Route path="book-now" element={<Bookmain />} />
-          <Route path="contact" element={<div>Connect</div>} />
+          <Route path="contact" element={<ContactMain />} />
         </Route>
       </Routes>
     </BrowserRouter>
