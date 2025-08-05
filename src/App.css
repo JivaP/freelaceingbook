@@ -52,6 +52,6 @@ span {
   letter-spacing: 2px;
 }
 
-body {
-  overflow-x: none;
+#root{
+  overflow-x: hidden;
 }

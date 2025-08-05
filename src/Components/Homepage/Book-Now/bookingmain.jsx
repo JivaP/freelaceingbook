@@ -47,7 +47,7 @@ import ParallaxBackground from './ParallaxBackground';
 export default function Bookingmain() {
     return (
         <Box sx={{ position: 'relative', minHeight: '20vh', overflowX: 'none' }}>
-            <ParallaxBackground image="/assert/Celebrities/background33.jpg" />
+            {/* <ParallaxBackground image="/assert/Celebrities/background33.jpg" />
             <Box
                 sx={{
                     position: 'absolute',
@@ -58,7 +58,7 @@ export default function Bookingmain() {
                     backgroundColor: 'rgba(255,255,255,0.8)',
                     zIndex: 1,
                 }}
-            />
+            /> */}
             <Box sx={{ position: 'relative', zIndex: 2 }}>
                 <BookingSection />
             </Box>
