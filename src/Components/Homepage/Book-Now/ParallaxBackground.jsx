@@ -22,7 +22,7 @@ const ParallaxBackground = ({ image }) => {
                 left: 0,
                 width: '100vw',
                 height: '100vh',
-                overflow: 'hidden',
+                overflowX: 'hidden',
                 zIndex: -100,
                 pointerEvents: 'none',
             }}
