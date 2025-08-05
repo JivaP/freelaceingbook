@@ -46,7 +46,7 @@ import ParallaxBackground from './ParallaxBackground';
 
 export default function Bookingmain() {
     return (
-        <Box sx={{ position: 'relative', minHeight: '20vh', overflow: 'hidden' }}>
+        <Box sx={{ position: 'relative', minHeight: '20vh', overflowX: 'none' }}>
             <ParallaxBackground image="/assert/Celebrities/background33.jpg" />
             <Box
                 sx={{
