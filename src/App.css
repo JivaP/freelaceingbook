@@ -46,6 +46,11 @@
 span {
   font-family: 'Lato',
 }
-.css-rizt0-MuiTypography-root{
+
+.css-rizt0-MuiTypography-root {
   font-family: Lato !important;
+}
+
+body {
+  overflow-x: hidden;
 }
