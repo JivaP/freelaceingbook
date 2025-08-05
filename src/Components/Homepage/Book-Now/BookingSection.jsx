@@ -101,9 +101,15 @@ const BookingSection = () => {
                                 <Button
                                     type="submit"
                                     variant="contained"
-                                    color="primary"
                                     fullWidth
-                                    sx={{ mt: 2 }}
+                                    className="submit-btn"
+                                    sx={{
+                                        mt: 2,
+                                        background: "#e30f5f",
+                                        ":hover": { backgroundColor: "#888", border: "1px solid #888" },
+                                        fontFamily: "Lato",
+                                        fontWeight: 600
+                                    }}
                                 >
                                     Book Now
                                 </Button>
