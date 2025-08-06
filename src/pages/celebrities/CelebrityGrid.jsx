@@ -2,6 +2,7 @@
 import React from 'react';
 import { Grid, Container, Card, CardMedia, CardContent, Typography, Button } from '@mui/material';
 import { motion } from 'framer-motion';
+import BookNowButton from '../../Common/ui/Button';
 
 const celebrities = [
     { name: 'Alia Bhatt', img: '/assert/Celebritiespage/item3.jpg', link: 'alia.php' },
@@ -39,25 +40,7 @@ const CelebrityGrid = () => {
                                         <Typography variant="h6" gutterBottom>
                                             {celeb.name}
                                         </Typography>
-                                        <Button
-                                            variant="outlined"
-                                            href="book-now.php"
-                                            fullWidth
-                                            sx={{
-                                                border: '1px solid #e30f5f',
-                                                color: '#e30f5f',
-                                                overflow: 'hidden', p: 1,
-                                                borderRadius: "12px",
-                                                transition: 'all 0.4s ease-in-out',
-                                                '&:hover': {
-                                                    borderColor: '#888',
-                                                    backgroundColor: '#888',
-                                                    color: '#fff',
-                                                },
-                                            }}
-                                        >
-                                            BOOK NOW
-                                        </Button>
+                                        <BookNowButton/>
                                     </CardContent>
                                 </Card>
                             </motion.div>

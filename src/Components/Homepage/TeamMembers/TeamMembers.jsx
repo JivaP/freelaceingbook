@@ -140,6 +140,7 @@
 import React, { useState, useEffect } from 'react';
 import { Grid, Card, CardContent, Typography, Button, Container, Box } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
+import BookNowButton from '../../../Common/ui/Button';
 
 const teamMembers = [
     {
@@ -247,25 +248,7 @@ export default function TeamMembers() {
                                     <Typography variant="h6" gutterBottom>
                                         {member.name}
                                     </Typography>
-                                    <Button
-                                        variant="outlined"
-                                        href="book-now.php"
-                                        fullWidth
-                                        sx={{
-                                            border: '1px solid #e30f5f',
-                                            color: '#e30f5f',
-                                            overflow: 'hidden', p: 2,
-                                            borderRadius: "12px",
-                                            transition: 'all 0.4s ease-in-out',
-                                            '&:hover': {
-                                                borderColor: '#888',
-                                                backgroundColor: '#888',
-                                                color: '#fff',
-                                            },
-                                        }}
-                                    >
-                                        BOOK NOW
-                                    </Button>
+                                    <BookNowButton />
 
 
                                 </CardContent>

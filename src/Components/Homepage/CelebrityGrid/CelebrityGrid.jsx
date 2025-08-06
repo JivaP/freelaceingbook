@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Card, CardMedia, CardContent, Typography, Button, Container, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import BookNowButton from '../../../Common/ui/Button';
 
 const celebrities = [
     { name: 'Dia Mirza', image: '/assert/CelebrityGrid/dia.jpg' },
@@ -54,25 +55,7 @@ export default function CelebrityGrid() {
                                         <Typography variant="h6" fontWeight="bold" gutterBottom>
                                             {celeb.name}
                                         </Typography>
-                                        <Button
-                                            variant="outlined"
-                                            href="book-now.php"
-                                            fullWidth
-                                            sx={{
-                                                border: '1px solid #e30f5f',
-                                                color: '#e30f5f',
-                                                overflow: 'hidden', p: 1,
-                                                borderRadius: "12px",
-                                                transition: 'all 0.4s ease-in-out',
-                                                '&:hover': {
-                                                    borderColor: '#888',
-                                                    backgroundColor: '#888',
-                                                    color: '#fff',
-                                                },
-                                            }}
-                                        >
-                                            BOOK NOW
-                                        </Button>
+                                        <BookNowButton />
                                     </CardContent>
                                 </Card>
                             </motion.div>

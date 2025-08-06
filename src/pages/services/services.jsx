@@ -5,6 +5,7 @@ import ParallaxBackground from '../../Common/ParallaxBackground';
 import Servicesmain from '../../Components/Homepage/ServicesSection/Servicesmain';
 import ServiceItem from "../../Common/Services/OurServices"
 import { ParallaxHero } from '../../Common/ParallaxHero/ParallaxHero';
+import BookNowButton from '../../Common/ui/Button';
 
 export default function Services() {
     const theme = useTheme();
@@ -79,27 +80,7 @@ export default function Services() {
                                 management & artist booking interface. "
                             </Typography>
 
-                            <Button
-                                variant="outlined"
-                                href="book-now.php"
-                                sx={{
-                                    mt: 4,
-                                    px: 4,
-                                    py: 1.5,
-                                    fontWeight: 600,
-                                    border: '1px solid #e30f5f',
-                                    color: '#e30f5f',
-                                    borderRadius: '12px',
-                                    transition: 'all 0.4s ease-in-out',
-                                    '&:hover': {
-                                        borderColor: '#888',
-                                        backgroundColor: '#888',
-                                        color: '#fff',
-                                    },
-                                }}
-                            >
-                                BOOK NOW
-                            </Button>
+                            <BookNowButton/>
                         </Box>
                     </Box>
                 </ParallaxHero>
