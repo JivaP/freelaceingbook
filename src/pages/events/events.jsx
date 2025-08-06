@@ -85,9 +85,7 @@ export default function Events() {
             </Box>
 
             {/* Your carousel or section content goes below */}
-            <Box sx={{ mt: 4 }}>
-                <EventCarousel />
-            </Box>
+
         </>
     );
 }

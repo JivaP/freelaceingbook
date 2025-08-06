@@ -1,0 +1,3295 @@
+{
+    "Sonu Sood": {
+        "title": "Actor and Philanthropist",
+        "image": "https://example.com/sonu_sood.jpg",
+        "commercial_details": [
+            {
+                "Category": "Brand promotion video with 3 month usage right",
+                "Commercial": "39 Lac"
+            },
+            {
+                "Category": "Brand Ambassador cost",
+                "Commercial": "1.60 cr"
+            },
+            {
+                "Category": "Appearance rate",
+                "Commercial": "28.6 lac"
+            },
+            {
+                "Category": "Instagram reel",
+                "Commercial": "23.4 lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "13.0 lac"
+            }
+        ]
+    },
+    "Jaya Kishori": {
+        "title": "Spiritual Speaker",
+        "image": "https://example.com/jaya_kishori.jpg",
+        "commercial_details": [
+            {
+                "Category": "Motivational talk",
+                "Commercial": "9.75 Lac"
+            },
+            {
+                "Category": "Katha 3 days",
+                "Commercial": "27.3 Lac"
+            },
+            {
+                "Category": "Katha 7 days",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Kumar Vishwas": {
+        "title": "Poet and Politician",
+        "image": "https://example.com/kumar_vishwas.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Instagram reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "5.2 Lac"
+            }
+        ]
+    },
+    "Rashmi Desai": {
+        "title": "Actress",
+        "image": "https://example.com/rashmi_desai.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "7.15 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand promotion video with 3 month usage",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Sonal Chauhan": {
+        "title": "Actress and Model",
+        "image": "https://example.com/sonal_chauhan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.15 Lac"
+            }
+        ]
+    },
+    "Rupali Ganguly": {
+        "title": "Actress",
+        "image": "https://example.com/rupali_ganguly.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Aftab Shivdasani": {
+        "title": "Actor",
+        "image": "https://example.com/aftab_shivdasani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Urmila Matondkar": {
+        "title": "Actress",
+        "image": "https://example.com/urmila_matondkar.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "8.45 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.75 Lac"
+            }
+        ]
+    },
+    "Soha Ali Khan": {
+        "title": "Actress",
+        "image": "https://example.com/soha_ali_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Insta reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Insta story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.75 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "65 Lac"
+            }
+        ]
+    },
+    "Sonali Bendre": {
+        "title": "Actress",
+        "image": "https://example.com/sonali_bendre.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand promo video 3 month usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Raveena Tandon": {
+        "title": "Actress",
+        "image": "https://example.com/raveena_tandon.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand promo video with usage 3 month",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "18.2 Lac"
+            },
+            {
+                "Category": "Brand ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Kiara Advani": {
+        "title": "Actress",
+        "image": "https://example.com/kiara_advani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "52 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "110.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "1.95 Cr"
+            }
+        ]
+    },
+    "Jimmy Shergill": {
+        "title": "Actor",
+        "image": "https://example.com/jimmy_shergill.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Neil Nitin Mukesh": {
+        "title": "Actor",
+        "image": "https://example.com/neil_nitin_mukesh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Jackie Shroff": {
+        "title": "Actor",
+        "image": "https://example.com/jackie_shroff.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Vivek Oberoi": {
+        "title": "Actor",
+        "image": "https://example.com/vivek_oberoi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "97.5 Lac"
+            }
+        ]
+    },
+    "Shreya Dhanwantri": {
+        "title": "Actress",
+        "image": "https://example.com/shreya_dhanwantri.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand Promo video with 3 month usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Pooja Gor": {
+        "title": "Actress",
+        "image": "https://example.com/pooja_gor.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand promo video with 3 month usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "15.6 Lac"
+            }
+        ]
+    },
+    "Divyanka Tripathi": {
+        "title": "Actress",
+        "image": "https://example.com/divyanka_tripathi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Promo video",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Shivangi Joshi": {
+        "title": "Actress",
+        "image": "https://example.com/shivangi_joshi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "7.15 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Brand Promo video with usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.15 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Ashutosh Rana": {
+        "title": "Actor",
+        "image": "https://example.com/ashutosh_rana.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Prmo video",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Akshara Singh": {
+        "title": "Actress",
+        "image": "https://example.com/akshara_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Bharti Singh": {
+        "title": "Comedian",
+        "image": "https://example.com/bharti_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "65 Lac"
+            }
+        ]
+    },
+    "Hina Khan": {
+        "title": "Actress",
+        "image": "https://example.com/hina_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Instagram story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand Prmo video",
+                "Commercial": "0 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "11.7 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Shweta Tiwari": {
+        "title": "Actress",
+        "image": "https://example.com/shweta_tiwari.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "9.75 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Promo video with 3 month usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac plus staff"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Stock image (1)",
+                "Commercial": "9.75 Lac"
+            }
+        ]
+    },
+    "Palak Tiwari": {
+        "title": "Actress",
+        "image": "https://example.com/palak_tiwari.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram Reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Promo video with 3 month usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac plus staff"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Stock image (3-4)",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Zarine Khan": {
+        "title": "Actress and Model",
+        "image": "https://example.com/zarine_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "7.15 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand promo",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Sonam Bajwa": {
+        "title": "Actress",
+        "image": "https://example.com/sonam_bajwa.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "11.7 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Zayyed Khan": {
+        "title": "Actor",
+        "image": "https://example.com/zayyed_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Aditi Rao Hydari": {
+        "title": "Actress",
+        "image": "https://example.com/aditi_rao_hydari.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Yami Gautam": {
+        "title": "Actress",
+        "image": "https://example.com/yami_gautam.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "65 Lac"
+            }
+        ]
+    },
+    "Vidya Balan": {
+        "title": "Actress",
+        "image": "https://example.com/vidya_balan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "18.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "45.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "104 Lac"
+            }
+        ]
+    },
+    "Tara Sutaria": {
+        "title": "Actress",
+        "image": "https://example.com/tara_sutaria.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Disha Patani": {
+        "title": "Actress",
+        "image": "https://example.com/disha_patani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "16.25 Lac"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "36.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "58.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "1.3 Cr"
+            }
+        ]
+    },
+    "Shweta Tripathi": {
+        "title": "Actress",
+        "image": "https://example.com/shweta_tripathi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Vikrant Massey": {
+        "title": "Actor",
+        "image": "https://example.com/vikrant_massey.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Kriti Kharbanda": {
+        "title": "Actress",
+        "image": "https://example.com/kriti_kharbanda.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Esha Gupta": {
+        "title": "Actress and Model",
+        "image": "https://example.com/esha_gupta.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Neha Sharma": {
+        "title": "Actress",
+        "image": "https://example.com/neha_sharma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Divyendu": {
+        "title": "Actor",
+        "image": "https://example.com/divyendu.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Manisha Koirala": {
+        "title": "Actress",
+        "image": "https://example.com/manisha_koirala.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            },
+            {
+                "Category": "Stock Image (2)",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Tahira Kashyap": {
+        "title": "Author and Filmmaker",
+        "image": "https://example.com/tahira_kashyap.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Shruti Jha": {
+        "title": "Actress",
+        "image": "https://example.com/shruti_jha.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "Video usage"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Sophie Chaudhary": {
+        "title": "Actress and Model",
+        "image": "https://example.com/sophie_chaudhary.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.15 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Urvashi Rautela": {
+        "title": "Actress and Model",
+        "image": "https://example.com/urvashi_rautela.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "78 Lac"
+            }
+        ]
+    },
+    "Prajakta Kohli": {
+        "title": "YouTuber and Actress",
+        "image": "https://example.com/prajakta_kohli.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Nia Sharma": {
+        "title": "Actress",
+        "image": "https://example.com/nia_sharma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Sara Ali Khan": {
+        "title": "Actress",
+        "image": "https://example.com/sara_ali_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "39 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "1.95 Cr"
+            }
+        ]
+    },
+    "Rashmika Mandanna": {
+        "title": "Actress",
+        "image": "https://example.com/rashmika_mandanna.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "65 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "84.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "2.60 Cr"
+            }
+        ]
+    },
+    "Genelia Dsouza": {
+        "title": "Actress",
+        "image": "https://example.com/genelia_dsouza.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "71.5 Lac"
+            }
+        ]
+    },
+    "Ritesh Deshmukh": {
+        "title": "Actor",
+        "image": "https://example.com/ritesh_deshmukh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "39 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "91 Lac"
+            }
+        ]
+    },
+    "Juhi Chawla": {
+        "title": "Actress",
+        "image": "https://example.com/juhi_chawla.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Randeep Hooda": {
+        "title": "Actor",
+        "image": "https://example.com/randeep_hooda.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "130 Lac"
+            }
+        ]
+    },
+    "Mouni Roy": {
+        "title": "Actress",
+        "image": "https://example.com/mouni_roy.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Sharad Saxena": {
+        "title": "Actor",
+        "image": "https://example.com/sharad_saxena.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Reem Sameer Sheikh": {
+        "title": "Actress",
+        "image": "https://example.com/reem_sameer_sheikh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Sanjay Mishra": {
+        "title": "Actor",
+        "image": "https://example.com/sanjay_mishra.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Sushant Singh": {
+        "title": "Actor",
+        "image": "https://example.com/sushant_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Raghubeer Yadav": {
+        "title": "Actor",
+        "image": "https://example.com/raghubeer_yadav.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Adah Sharma": {
+        "title": "Actress",
+        "image": "https://example.com/adah_sharma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Atul Khatri": {
+        "title": "Comedian",
+        "image": "https://example.com/atul_khatri.jpg",
+        "commercial_details": [
+            {
+                "Category": "Mumbai Performance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Outside Mumbai",
+                "Commercial": "11.7 Lac"
+            }
+        ]
+    },
+    "Nimrat Kaur": {
+        "title": "Actress",
+        "image": "https://example.com/nimrat_kaur.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "11.7 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Sanya Malhotra": {
+        "title": "Actress",
+        "image": "https://example.com/sanya_malhotra.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Poonam Dhillon": {
+        "title": "Actress",
+        "image": "https://example.com/poonam_dhillon.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reels",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Ayesha Jhulka": {
+        "title": "Actress",
+        "image": "https://example.com/ayesha_jhulka.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "3.9 Lac"
+            }
+        ]
+    },
+    "Kapil Sharma": {
+        "title": "Comedian and Actor",
+        "image": "https://example.com/kapil_sharma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand promo video usage",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "78 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "1.63 Cr"
+            }
+        ]
+    },
+    "Tejaswini Prakash": {
+        "title": "Actress",
+        "image": "https://example.com/tejaswini_prakash.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand promo video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Smriti Mandhana": {
+        "title": "Cricketer",
+        "image": "https://example.com/smriti_mandhana.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "65 Lac"
+            }
+        ]
+    },
+    "Anil Kapoor": {
+        "title": "Actor",
+        "image": "https://example.com/anil_kapoor.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "104 Lac"
+            }
+        ]
+    },
+    "Anupam Kher": {
+        "title": "Actor",
+        "image": "https://example.com/anupam_kher.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Promo video",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "36.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "104 Lac"
+            }
+        ]
+    },
+    "Rani Chatterjee": {
+        "title": "Actress",
+        "image": "https://example.com/rani_chatterjee.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.04 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Monalisa": {
+        "title": "Actress",
+        "image": "https://example.com/monalisa.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Brand prmo video",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Kajal Raghwani": {
+        "title": "Actress",
+        "image": "https://example.com/kajal_raghwani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Brand prmo video",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Akshara Singh": {
+        "title": "Actress",
+        "image": "https://example.com/akshara_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Brand promo video",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Amrapali Dubey": {
+        "title": "Actress",
+        "image": "https://example.com/amrapali_dubey.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "23.4 Lac"
+            }
+        ]
+    },
+    "Anjana Singh": {
+        "title": "Actress",
+        "image": "https://example.com/anjana_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.04 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "15.6 Lac"
+            }
+        ]
+    },
+    "Zoya Khan": {
+        "title": "Actress",
+        "image": "https://example.com/zoya_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "65k"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "40k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "65k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Khesari Lal Yadav": {
+        "title": "Singer and Actor",
+        "image": "https://example.com/khesari_lal_yadav.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Pawan Singh": {
+        "title": "Singer and Actor",
+        "image": "https://example.com/pawan_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Pradeep Pandey": {
+        "title": "Actor",
+        "image": "https://example.com/pradeep_pandey.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Anara Gupta": {
+        "title": "Actress",
+        "image": "https://example.com/anara_gupta.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.56 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.04 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Pooja Hegde": {
+        "title": "Actress",
+        "image": "https://example.com/pooja_hegde.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "18.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "28.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "1.30 Cr"
+            }
+        ]
+    },
+    "Divyansh": {
+        "title": "Singer",
+        "image": "https://example.com/divyansh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "5.2 Lac"
+            }
+        ]
+    },
+    "Munraj": {
+        "title": "Singer",
+        "image": "https://example.com/munraj.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Divyansh and Munraj together",
+                "Commercial": "8.45 Lac"
+            }
+        ]
+    },
+    "Suhani Shah": {
+        "title": "Magician",
+        "image": "https://example.com/suhani_shah.jpg",
+        "commercial_details": [
+            {
+                "Category": "Performance",
+                "Commercial": "5.2 Lac"
+            }
+        ]
+    },
+    "Anup Soni": {
+        "title": "Actor",
+        "image": "https://example.com/anup_soni.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Rajeev Khandelwal": {
+        "title": "Actor",
+        "image": "https://example.com/rajeev_khandelwal.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "23.4 Lac"
+            }
+        ]
+    },
+    "Ranvir Shorey": {
+        "title": "Actor",
+        "image": "https://example.com/ranvir_shorey.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Anveshi Jain": {
+        "title": "Actress and Model",
+        "image": "https://example.com/anveshi_jain.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Siddharth Chaturvedi": {
+        "title": "Actor",
+        "image": "https://example.com/siddharth_chaturvedi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Arjun Rampal": {
+        "title": "Actor",
+        "image": "https://example.com/arjun_rampal.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "23.4 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Shamita Shetty": {
+        "title": "Actress",
+        "image": "https://example.com/shamita_shetty.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Hindustani Bhau": {
+        "title": "YouTuber",
+        "image": "https://example.com/hindustani_bhau.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Nikki Tamboli": {
+        "title": "Actress and Model",
+        "image": "https://example.com/nikki_tamboli.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Mrunal Thakur": {
+        "title": "Actress",
+        "image": "https://example.com/mrunal_thakur.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "20.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "19.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "65 Lac"
+            }
+        ]
+    },
+    "Amrita Rao": {
+        "title": "Actress",
+        "image": "https://example.com/amrita_rao.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Pratik Gandhi": {
+        "title": "Actor",
+        "image": "https://example.com/pratik_gandhi.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "45.5 Lac"
+            }
+        ]
+    },
+    "Gulshan Grover": {
+        "title": "Actor",
+        "image": "https://example.com/gulshan_grover.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Shakti Kapoor": {
+        "title": "Actor",
+        "image": "https://example.com/shakti_kapoor.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "na"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Sara Khan": {
+        "title": "Actress",
+        "image": "https://example.com/sara_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "2.275 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Adaa Khan": {
+        "title": "Actress",
+        "image": "https://example.com/adaa_khan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Anchoring",
+                "Commercial": "5.20 Lac"
+            },
+            {
+                "Category": "Meet and greet",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Stock Image",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Mukesh Khanna": {
+        "title": "Actor",
+        "image": "https://example.com/mukesh_khanna.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Vijay Verma": {
+        "title": "Actor",
+        "image": "https://example.com/vijay_verma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Instagram reel",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Arjun Bijlani": {
+        "title": "Actor",
+        "image": "https://example.com/arjun_bijlani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Rahul Vaidya": {
+        "title": "Singer",
+        "image": "https://example.com/rahul_vaidya.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "52 Lac"
+            }
+        ]
+    },
+    "Disha Parmar": {
+        "title": "Actress",
+        "image": "https://example.com/disha_parmar.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Sugandha Mishra": {
+        "title": "Comedian and Actress",
+        "image": "https://example.com/sugandha_mishra.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "9.1 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "32.5 Lac"
+            }
+        ]
+    },
+    "Sanket Bhosale": {
+        "title": "Comedian",
+        "image": "https://example.com/sanket_bhosale.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "19.5 Lac"
+            }
+        ]
+    },
+    "Raghav Juyal": {
+        "title": "Dancer and Anchor",
+        "image": "https://example.com/raghav_juyal.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "13 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "26 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "91 Lac"
+            }
+        ]
+    },
+    "Dharmesh": {
+        "title": "Dancer",
+        "image": "https://example.com/dharmesh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "5.85 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "10.4 Lac"
+            },
+            {
+                "Category": "Ambassador",
+                "Commercial": "26 Lac"
+            }
+        ]
+    },
+    "Onima Kashyap": {
+        "title": "Actress",
+        "image": "https://example.com/onima_kashyap.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Yogita Bihani": {
+        "title": "Actress",
+        "image": "https://example.com/yogita_bihani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "39 Lac"
+            }
+        ]
+    },
+    "Ravi Kishan": {
+        "title": "Actor and Politician",
+        "image": "https://example.com/ravi_kishan.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "7.8 Lac"
+            },
+            {
+                "Category": "Video Usage",
+                "Commercial": "On request"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "32.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "3.25 cr"
+            }
+        ]
+    },
+    "Kiku Sharda": {
+        "title": "Comedian and Actor",
+        "image": "https://example.com/kiku_sharda.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "8.45 Lac"
+            },
+            {
+                "Category": "Performance",
+                "Commercial": "15.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "58.5 Lac"
+            }
+        ]
+    },
+    "Stefy Patel": {
+        "title": "Actress",
+        "image": "https://example.com/stefy_patel.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "85k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Sumati Singh": {
+        "title": "Actress",
+        "image": "https://example.com/sumati_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "46k"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "26k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "33k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Nyraa Banerjee": {
+        "title": "Actress",
+        "image": "https://example.com/nyraa_banerjee.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "85k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "4.55 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "9.1 Lac"
+            }
+        ]
+    },
+    "Helly Shah": {
+        "title": "Actress",
+        "image": "https://example.com/helly_shah.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.275 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "85k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "9.1 Lac"
+            }
+        ]
+    },
+    "Karan Sharma": {
+        "title": "Actor",
+        "image": "https://example.com/karan_sharma.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Gautam Vig": {
+        "title": "Actor",
+        "image": "https://example.com/gautam_vig.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "13 Lac"
+            }
+        ]
+    },
+    "Donal Bisht": {
+        "title": "Actress",
+        "image": "https://example.com/donal_bisht.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "5.2 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "13 Lac"
+            }
+        ]
+    },
+    "Shivin Narang": {
+        "title": "Actor",
+        "image": "https://example.com/shivin_narang.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.9 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "13 Lac"
+            }
+        ]
+    },
+    "Zoya Afroz": {
+        "title": "Actress",
+        "image": "https://example.com/zoya_afroz.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "6.5 Lac"
+            }
+        ]
+    },
+    "Nishant Malkani": {
+        "title": "Actor",
+        "image": "https://example.com/nishant_malkani.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "85k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "13 Lac"
+            }
+        ]
+    },
+    "Manya Singh": {
+        "title": "Model and Actress",
+        "image": "https://example.com/manya_singh.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "98k"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "65k"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "65k"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "3.9 Lac"
+            }
+        ]
+    },
+    "Sargun Kaur Luthra": {
+        "title": "Actress",
+        "image": "https://example.com/sargun_kaur_luthra.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "1.3 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "0.975 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "1.95 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "13 Lac"
+            }
+        ]
+    },
+    "Ahsas Channa": {
+        "title": "Actress",
+        "image": "https://example.com/ahsas_channa.jpg",
+        "commercial_details": [
+            {
+                "Category": "Reel",
+                "Commercial": "3.25 Lac"
+            },
+            {
+                "Category": "Story",
+                "Commercial": "2.275 Lac"
+            },
+            {
+                "Category": "Video usage",
+                "Commercial": "2.6 Lac"
+            },
+            {
+                "Category": "Appearance",
+                "Commercial": "6.5 Lac"
+            },
+            {
+                "Category": "Brand Ambassador",
+                "Commercial": "10.4 Lac"
+            }
+        ]
+    },
+    "Athiya Shetty": {
+        "title": "Actress",
+        "image": "https://example.com/athiya_shetty.jpg",
+        "commercial_details": [
+            {
+                "Category": "Appearance",
+                "Commercial": "9.1 Lac"
+            }
+        ]
+    },
+    "Sahil Khattar": {
+        "title": "Actor",
+        "image": "https://example.com/sahil_khattar.jpg",
+        "commercial_details": []
+    }
+}

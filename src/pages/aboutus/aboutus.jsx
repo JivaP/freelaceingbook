@@ -1,84 +1,97 @@
-import React from 'react'
-import ParallaxBackground from '../../Common/ParallaxBackground'
-import { Box, Typography } from '@mui/material'
-import TeamMembers from '../../Components/Homepage/TeamMembers/TeamMembers'
-import Bookingmain from '../../Components/Homepage/Book-Now/bookingmain'
+import { Box, Typography, useTheme, useMediaQuery } from '@mui/material';
+import { motion,  } from 'framer-motion';
+import TeamMembers from '../../Components/Homepage/TeamMembers/TeamMembers';
+import Bookingmain from '../../Components/Homepage/Book-Now/bookingmain';
+import AboutUs from '../../Common/AboutUs/AboutUs';
+import { ParallaxHero } from '../../Common/ParallaxHero/ParallaxHero';
 
-export default function Aboutus() {
+
+export default function AboutUsPage() {
+    const theme = useTheme();
+    const isSmallMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
+
+    const getHeadingVariant = () => {
+        if (isSmallMobile) return 'h3';
+        if (isTablet) return 'h2';
+        return 'h1';
+    };
+
     return (
-        <>
-            {/* <Box sx={{ position: 'relative', minHeight: '50vh', overflow: 'hidden' }}>
-
-                <ParallaxBackground image={"/assert/team/background1.jpg"} />
-                <Box
-                    sx={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: '#0202017e',
-                        zIndex: 1,
-                    }}
-                />
-                <Box sx={{ position: 'relative', zIndex: 2, textAlign: "center", top: 100, bottom: 100, fontSize: 50, color: "rgb(227, 15, 95)", fontFamily: "Montserrat", fontWeight: 700, textTransform: "uppercase" }}>
-                    Abouts
-                </Box>
-
-
-            </Box> */}
-
-            <Box sx={{ position: 'relative', minHeight: '50vh', overflow: 'hidden' }}>
-                {/* Parallax Background */}
-                <ParallaxBackground image={"/assert/team/background1.jpg"} />
-
-                {/* Overlay */}
-                <Box
-                    sx={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: '#0202017e',
-                        zIndex: 1,
-                    }}
-                />
-
-                {/* Centered Heading */}
-                <Box
-                    sx={{
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
-                        transform: 'translate(-50%, -50%)',
-                        zIndex: 2,
-                        width: '100%',
-                        px: 2,
-                        textAlign: 'center',
-                    }}
-                >
+        <Box sx={{ overflowX: 'hidden' }}>
+            {/* Hero Section with Parallax */}
+            <ParallaxHero image="/assert/team/background1.jpg">
+                <Box sx={{
+                    textAlign: 'center',
+                    color: 'white',
+                    py: isSmallMobile ? 4 : 8
+                }}>
                     <Typography
-                        variant="h2"
+                        component={motion.h1}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                        variant={getHeadingVariant()}
                         sx={{
-                            fontSize: {
-                                xs: '1rem',
-                                sm: '1rem',
-                                md: '3.5rem',   
-                                lg: '3rem',
-                            },
-                            color: 'rgb(227, 15, 95)',
                             fontFamily: 'Montserrat',
                             fontWeight: 700,
                             textTransform: 'uppercase',
+                            color: 'rgb(227, 15, 95)',
+                            mb: isSmallMobile ? 1 : 2,
+                            fontSize: {
+                                xs: '2rem',
+                                sm: '3rem',
+                                md: '3rem'
+                            }
                         }}
                     >
-                        About
+                        About Us
+                    </Typography>
+
+                    <Typography
+                        component={motion.p}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.3, duration: 0.8 }}
+                        variant={isSmallMobile ? 'body1' : 'h5'}
+                        sx={{
+                            fontFamily: 'Lato',
+                            maxWidth: 800,
+                            mx: 'auto',
+                            mt: isSmallMobile ? 1 : 2,
+                            textShadow: '0 2px 4px rgba(0,0,0,0.5)',
+                            fontSize: {
+                                xs: '1rem',
+                                sm: '1.25rem',
+                                md: '1.5rem'
+                            }
+                        }}
+                    >
+                        Creating unforgettable experiences with celebrity excellence
                     </Typography>
                 </Box>
+            </ParallaxHero>
+
+            {/* Page Content Sections */}
+            <Box component="main" sx={{
+                maxWidth: 1200,
+                mx: 'auto',
+                px: isSmallMobile ? 2 : isTablet ? 3 : 4,
+                py: isSmallMobile ? 3 : 6
+            }}>
+                <AboutUs />
+
+                <Box sx={{ my: isSmallMobile ? 4 : 8 }}>
+                    <TeamMembers />
+                </Box>
+
+                <Box sx={{
+                    mt: isSmallMobile ? 4 : 8,
+                    mb: isSmallMobile ? 2 : 4
+                }}>
+                    <Bookingmain />
+                </Box>
             </Box>
-            <Bookingmain />
-            <TeamMembers />
-        </>
-    )
+        </Box>
+    );
 }

@@ -46,8 +46,8 @@ import { Box } from '@mui/material';
 export default function Servicesmain() {
     return (
         <Box sx={{ position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
-            <ParallaxBackground image="/assert/team/background1.jpg" />
-            <Box
+            {/* <ParallaxBackground image="/assert/team/background1.jpg" /> */}
+            {/* <Box
                 sx={{
                     position: 'absolute',
                     top: 0,
@@ -57,7 +57,7 @@ export default function Servicesmain() {
                     backgroundColor: 'rgba(255,255,255,0.8)',
                     zIndex: 1,
                 }}
-            />
+            /> */}
             <Box sx={{ position: 'relative', zIndex: 2 }}>
                 <ServicesSection />
             </Box>

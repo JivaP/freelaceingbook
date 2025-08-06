@@ -27,60 +27,59 @@
 //         </>
 //     )
 // }
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import React from 'react';
 import ParallaxBackground from '../../Common/ParallaxBackground';
+import { ParallaxHero } from '../../Common/ParallaxHero/ParallaxHero';
 
 export default function Singers() {
+    const theme = useTheme();
+    const isSmallMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
+
     return (
         <>
-            <Box sx={{ position: 'relative', minHeight: '50vh', overflow: 'hidden' }}>
-                {/* Parallax Background */}
-                <ParallaxBackground image={"/assert/team/background1.jpg"} />
-
-                {/* Overlay */}
-                <Box
-                    sx={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: '#0202017e',
-                        zIndex: 1,
-                    }}
-                />
-
-                {/* Responsive Centered Text */}
-                <Box
-                    sx={{
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
-                        transform: 'translate(-50%, -50%)',
-                        zIndex: 2,
-                        width: '100%',
-                        px: 2,
+            <Box sx={{ overflowX: 'hidden' }}>
+                {/* Hero Section with Parallax */}
+                <ParallaxHero image="/assert/team/background1.jpg">
+                    <Box sx={{
                         textAlign: 'center',
-                    }}
-                >
-                    <Typography
-                        variant="h2"
-                        sx={{
-                            fontSize: {
-                                xs: '1.8rem',
-                                sm: '2.5rem',
-                                md: '3.2rem',
-                                lg: '3rem',
-                            },
-                            color: 'rgb(227, 15, 95)',
-                            fontFamily: 'Montserrat',
-                            fontWeight: 700,
-                        }}
-                    >
-                        Hire Professional Singers
-                    </Typography>
-                </Box>
+                        color: 'white',
+                        py: isSmallMobile ? 4 : 8
+                    }}>
+
+                        {/* Responsive Centered Text */}
+                        <Box
+                            sx={{
+                                position: 'absolute',
+                                top: '50%',
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)',
+                                zIndex: 2,
+                                width: '100%',
+                                px: 2,
+                                textAlign: 'center',
+                            }}
+                        >
+                            <Typography
+                                variant="h2"
+                                sx={{
+                                    fontSize: {
+                                        xs: '1.8rem',
+                                        sm: '2.5rem',
+                                        md: '3.2rem',
+                                        lg: '3rem',
+                                    },
+                                    color: 'rgb(227, 15, 95)',
+                                    fontFamily: 'Montserrat',
+                                    fontWeight: 700,
+                                }}
+                            >
+                                Hire Professional Singers
+                            </Typography>
+                        </Box>
+                    </Box>
+                </ParallaxHero>
             </Box>
         </>
     );
