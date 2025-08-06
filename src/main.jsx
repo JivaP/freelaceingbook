@@ -4,12 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { ThemeProvider } from '@mui/material'
 import theme from './theme/theme.jsx'
+import ScrollTopButton from './Common/ui/ScrollTopButton/ScrollTopButton.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
 
       <App />
+      <ScrollTopButton />
     </ThemeProvider>
   </StrictMode>,
 )

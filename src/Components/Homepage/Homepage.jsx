@@ -8,6 +8,7 @@ import { Box } from '@mui/material'
 import CelebrityProjects from './Celebrities/CelebrityProjects'
 import Bookingmain from './Book-Now/bookingmain'
 import CelebrityGrid from './CelebrityGrid/CelebrityGrid'
+import ScrollTopButton from '../../Common/ui/ScrollTopButton/ScrollTopButton'
 
 
 export default function Homepage() {
