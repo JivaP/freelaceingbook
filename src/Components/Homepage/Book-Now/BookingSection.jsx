@@ -116,7 +116,7 @@ import { motion } from 'framer-motion';
 import CelebrityBookingSection from './CelebrityBookingSection';
 
 const containerVariants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 1, y: 50 },
     visible: {
         opacity: 1,
         y: 0,
