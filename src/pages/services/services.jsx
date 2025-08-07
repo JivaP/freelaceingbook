@@ -79,8 +79,10 @@ export default function Services() {
                                 " Celebsbooking a leading celebrity <br />
                                 management & artist booking interface. "
                             </Typography>
+                            <Box pt={2}>
 
-                            <BookNowButton/>
+                                <BookNowButton fullWidth={false} />
+                            </Box>
                         </Box>
                     </Box>
                 </ParallaxHero>

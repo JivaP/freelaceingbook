@@ -8,10 +8,7 @@ export default function Eventmain() {
         <>
             <Events />
             <Box sx={{ background: "white" }}>
-                <Box sx={{ textAlign: "center", fontSize: 40, fontFamily: "Montserrat ", fontWeight: "600", padding: 4 }}>
-                    CELEBSBOOKING PRESENTS <br />
-                    Iconic Women of the Year Awards 2020 & 2022
-                </Box>
+
                 <EventCarousel />
             </Box>
 

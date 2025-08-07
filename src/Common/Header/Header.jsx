@@ -399,27 +399,17 @@ export default function CustomHeader() {
 
     return (
         <Box sx={{
-            bgcolor: '#000000',
+            bgcolor: '#ffffffff',
             px: { xs: 1, sm: 2 },
             py: { xs: 1, sm: 2 }
         }}>
-            {/* Top Social Icons Bar - Hidden on mobile */}
-            {!isMobile && (
-                <Container>
-                    <Box display="flex" justifyContent="start" gap={1}>
-                        <IconButton component="a" href="https://www.facebook.com/celebsbooking" sx={{ color: 'white' }}><Facebook /></IconButton>
-                        <IconButton component="a" href="https://mobile.twitter.com/vikasgade" sx={{ color: 'white' }}><Twitter /></IconButton>
-                        <IconButton component="a" href="https://in.linkedin.com/in/vikasgade" sx={{ color: 'white' }}><LinkedIn /></IconButton>
-                        <IconButton component="a" href="#" sx={{ color: 'white' }}><YouTube /></IconButton>
-                    </Box>
-                </Container>
-            )}
+
 
             {/* Sticky AppBar */}
             <AppBar
-                position="sticky"
+                position="fixed"
                 sx={{
-                    bgcolor: '#000000',
+                    bgcolor: '#ffffffff',
                     boxShadow: 'none',
                     // borderBottom: '1px solid rgba(255,255,255,0.1)',
                 }}
@@ -433,30 +423,7 @@ export default function CustomHeader() {
                             transition={{ duration: 0.5 }}
                         >
                             <MuiLink component={Link} to="/" underline="none">
-                                <Typography
-                                    variant="h4"
-                                    sx={{
-                                        fontWeight: 500,
-                                        color: '#e30f5f',
-                                        fontFamily: 'Montserrat',
-                                        fontSize: { xs: '1.5rem', sm: '2rem' }
-                                    }}
-                                >
-                                    Celeb India Vision
-                                </Typography>
-                                <Typography
-                                    variant="subtitle2"
-                                    sx={{
-                                        fontFamily: 'Lato',
-                                        lineHeight: 1,
-                                        textTransform: 'uppercase',
-                                        letterSpacing: { xs: '3px', sm: '7px' },
-                                        fontSize: { xs: '0.5rem', sm: '0.7rem' },
-                                        color: '#888',
-                                    }}
-                                >
-                                    Celebrity Management
-                                </Typography>
+                                <img src="/New Project.svg" alt="" width={200} style={{objectFit:"cover"}} />
                             </MuiLink>
                         </motion.div>
 
@@ -468,10 +435,10 @@ export default function CustomHeader() {
                                         key={index}
                                         onClick={(e) => handleMenuOpen(e, item.nested)}
                                         sx={{
-                                            fontFamily: 'Lato',
+                                            fontFamily: 'Poppins',
                                             textTransform: 'uppercase',
-                                            color: 'white',
-                                            fontWeight: 400,
+                                            color: 'black',
+                                            fontWeight: 700,
                                             fontSize: '0.75rem',
                                             letterSpacing: '1px',
                                             minWidth: 'auto',
@@ -511,10 +478,10 @@ export default function CustomHeader() {
                                         component={Link}
                                         to={item.path}
                                         sx={{
-                                            fontFamily: 'Lato',
+                                            fontFamily: 'Poppins',
                                             textTransform: 'uppercase',
-                                            color: 'white',
-                                            fontWeight: 400,
+                                            color: 'black',
+                                            fontWeight: 700,
                                             fontSize: '0.75rem',
                                             letterSpacing: '1px',
                                             minWidth: 'auto',
@@ -572,7 +539,7 @@ export default function CustomHeader() {
                                         to={subItem.path}
                                         onClick={handleMenuClose}
                                         sx={{
-                                            color: 'white',
+                                            color: 'black',
                                             '&:hover': {
                                                 color: '#e30f5f',
                                                 bgcolor: 'rgba(255,255,255,0.05)',
@@ -589,7 +556,7 @@ export default function CustomHeader() {
                         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
                                 onClick={toggleMobileDrawer}
-                                sx={{ color: 'white' }}
+                                sx={{ color: 'black' }}
                             >
                                 <MenuIcon />
                             </IconButton>

@@ -129,14 +129,14 @@ const BookingSection = () => {
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
     return (
-        <Container maxWidth="lg" sx={{ py: 6 }}>
+        <Container maxWidth="lg" sx={{ pt: 4 }}>
             <motion.div
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.3 }}
                 variants={containerVariants}
             >
-                <Grid container spacing={4} >
+                <Grid container spacing={2} >
                     {/* Left Content Section */}
 
                     <CelebrityBookingSection />

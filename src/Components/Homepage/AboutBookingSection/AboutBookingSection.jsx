@@ -1,7 +1,8 @@
-import { Box, Grid, Typography, TextField, Button, List, ListItem, Container, useTheme, useMediaQuery, Card, CardContent } from "@mui/material";
+import { Box, Grid, Typography, TextField, List, ListItem, Container, useTheme, useMediaQuery, Card, CardContent } from "@mui/material";
 import { motion } from "framer-motion";
 import "./about.css"
-
+import MyButton from "../../../Common/ui/Button/Button";
+import SendIcon from '@mui/icons-material/Send';
 // const listItems = [
 //     "Bollywood Celebrities - Appearance & Performance",
 //     "Marathi Celebrities - Appearance & Performance",
@@ -27,11 +28,11 @@ export default function AboutUsSection() {
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
     return (
-        <Box sx={{ backgroundColor: "#ffffffff", }}>
+        <Box sx={{ pt: { xs: 0, md: 3 } }} >
 
             <Container >
 
-                <Box className="about-us-section">
+                <Box className="">
                     <Grid container spacing={4} alignItems="flex-start">
                         {/* About Us Content */}
 
@@ -57,9 +58,9 @@ export default function AboutUsSection() {
                                     <Typography
                                         variant={isMobile ? "h5" : "h4"}
                                         sx={{
-                                            fontFamily: 'Montserrat',
+
                                             fontWeight: 700,
-                                            color: '#e30f5f',
+                                            color: '#ffffffff',
                                             mb: 2,
                                             position: 'relative',
                                             '&:after': {
@@ -69,7 +70,7 @@ export default function AboutUsSection() {
                                                 left: 0,
                                                 width: 60,
                                                 height: 4,
-                                                background: 'linear-gradient(to right, #e30f5f, #ff8e53)',
+                                                background: 'linear-gradient(to right, #fe0000e8, #ffffffff)',
                                                 borderRadius: 2
                                             }
                                         }}
@@ -80,8 +81,8 @@ export default function AboutUsSection() {
                                     <Typography
                                         variant="body1"
                                         sx={{
-                                            fontFamily: 'Lato',
-                                            color: '#333',
+                                            // fontFamily: 'Lato',
+                                            color: 'white',
                                             fontSize: isMobile ? '1rem' : '1.1rem',
                                             mb: 3,
                                             lineHeight: 1.7
@@ -100,8 +101,8 @@ export default function AboutUsSection() {
                                             variant="h6"
                                             sx={{
                                                 fontWeight: 600,
-                                                fontFamily: 'Montserrat',
-                                                color: '#222',
+                                                // fontFamily: 'Montserrat',
+                                                color: 'white',
                                                 mb: 2,
                                                 fontSize: isMobile ? '1.1rem' : '1.25rem'
                                             }}
@@ -122,7 +123,7 @@ export default function AboutUsSection() {
                                                         <Box sx={{
                                                             width: 8,
                                                             height: 8,
-                                                            bgcolor: '#e30f5f',
+                                                            bgcolor: '#fe0000d2',
                                                             borderRadius: '50%',
                                                             mr: 2,
                                                             mt: '6px'
@@ -130,8 +131,8 @@ export default function AboutUsSection() {
                                                         <Typography
                                                             variant="body2"
                                                             sx={{
-                                                                fontFamily: 'Lato',
-                                                                color: '#444',
+                                                                fontFamily: 'Poppins',
+                                                                color: 'white',
                                                                 fontSize: isMobile ? '0.95rem' : '1rem'
                                                             }}
                                                         >
@@ -152,10 +153,10 @@ export default function AboutUsSection() {
                                         <Typography
                                             variant="body2"
                                             sx={{
-                                                fontFamily: 'Lato',
-                                                color: '#555',
+                                                // fontFamily: 'Lato',
+                                                color: 'white',
                                                 fontSize: isMobile ? '0.9rem' : '1rem',
-                                                fontStyle: 'italic',
+                                                // fontStyle: 'italic',
                                                 mt: 3
                                             }}
                                         >
@@ -180,7 +181,7 @@ export default function AboutUsSection() {
                                         component="h3"
                                         gutterBottom
                                         sx={{
-                                            fontFamily: 'Montserrat',
+                                            // fontFamily: 'Montserrat',
                                             fontWeight: 700,
                                             color: '#222',
                                             mb: 3,
@@ -247,29 +248,12 @@ export default function AboutUsSection() {
                                             }}
                                         />
 
-                                        <Button
-                                            type="submit"
-                                            variant="contained"
-                                            fullWidth
-                                            sx={{
-                                                mt: 3,
-                                                py: 1.5,
-                                                borderRadius: 2,
-                                                background: 'linear-gradient(to right, #e30f5f, #ff4d4d)',
-                                                '&:hover': {
-                                                    background: 'linear-gradient(to right, #c00d52, #e30f5f)',
-                                                    transform: 'translateY(-2px)',
-                                                    boxShadow: '0 4px 12px rgba(227, 15, 95, 0.3)'
-                                                },
-                                                fontFamily: 'Montserrat',
-                                                fontWeight: 600,
-                                                fontSize: '1rem',
-                                                transition: 'all 0.3s ease',
-                                                textTransform: 'uppercase'
-                                            }}
-                                        >
-                                            Submit Booking
-                                        </Button>
+                                        <MyButton
+                                            // fullWidth={true}
+                                            // variant="contained"
+                                            name="Submit Booking"
+                                            icons={<SendIcon sx={{ fontSize: '1.2rem' }} />}
+                                        />
                                     </Box>
                                 </CardContent>
                             </Card>

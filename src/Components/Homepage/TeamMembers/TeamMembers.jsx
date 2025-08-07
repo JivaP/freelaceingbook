@@ -141,6 +141,7 @@ import React, { useState, useEffect } from 'react';
 import { Grid, Card, CardContent, Typography, Button, Container, Box } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
 import BookNowButton from '../../../Common/ui/Button';
+import AnimatedHeading from '../../../Common/ui/Heading/Heading';
 
 const teamMembers = [
     {
@@ -203,12 +204,11 @@ export default function TeamMembers() {
     }, []);
 
     return (
-        <Box sx={{ backgroundColor: "#ffffffff", }}>
+        <Box >
 
             <Container>
-                <Typography variant="h3" gutterBottom sx={{ textAlign: 'start', py: 4, fontFamily: 'Montserrat', fontWeight: 500 }}>
-                    Celebrity Zone
-                </Typography>
+                <AnimatedHeading name={"Celebrity Zone"} />
+
 
                 <Grid container spacing={3}>
                     {teamMembers.map((member, i) => (
@@ -220,7 +220,7 @@ export default function TeamMembers() {
                                         width: '100%',
                                         paddingTop: '120%',
                                         overflow: 'hidden',
-                                        borderRadius: 12,
+                                        // borderRadius: 12,
                                     }}
                                 >
                                     <AnimatePresence mode="wait" initial={false}>
@@ -248,7 +248,7 @@ export default function TeamMembers() {
                                     <Typography variant="h6" gutterBottom>
                                         {member.name}
                                     </Typography>
-                                    <BookNowButton />
+                                    <BookNowButton fullWidth={false} />
 
 
                                 </CardContent>

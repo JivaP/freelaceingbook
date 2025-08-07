@@ -12,42 +12,42 @@ const Footer = () => {
                 <Grid container spacing={4}>
                     {/* About */}
                     <Grid size={{ xs: 12, sm: 6, md: 3 }} >
-                        <Typography variant="h6" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 500 }}>
+                        <Typography variant="h6" gutterBottom sx={{ fontWeight: 500 }}>
                             About
                         </Typography>
-                        <Typography variant="body2" sx={{ lineHeight: 1.6, fontFamily: 'Lato' }}>
+                        <Typography variant="body2" sx={{ lineHeight: 1.6, }}>
                             Managing Bollywood Celebrities, Television Actors and Actresses, Superstars of Marathi Cinemas for Special Guest appearances, Performances, Product launch and Brand Promotions or any other special occasions or events.
                         </Typography>
                     </Grid>
 
                     {/* Contacts */}
                     <Grid size={{ xs: 12, sm: 6, md: 3 }}>
-                        <Typography variant="h6" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 500 }}>
+                        <Typography variant="h6" gutterBottom sx={{ fontWeight: 500 }}>
                             Contacts
                         </Typography>
                         <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
                             <LocationOnIcon sx={{ mr: 1, mt: '3px' }} />
-                            <Typography variant="body2" component="address" sx={{ fontFamily: 'Lato' }}>
+                            <Typography variant="body2"  fontFamily={"Poppins"} >
                                 Platinum Towers
-                                <br />Off Juhu Lane
-                                <br />Andheri West
-                                <br />Mumbai 400053
-                                <br />Landmark The Club
+                                Off Juhu Lane
+                                Andheri West
+                                Mumbai 400053
+                                Landmark The Club
                             </Typography>
                         </Box>
                         <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                             <PhoneIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2" sx={{ fontFamily: "Lota" }}>+91 884-910-4707</Typography>
+                            <Typography variant="body2" >+91 884-910-4707</Typography>
                         </Box>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <EmailIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2" sx={{ fontFamily: "Lota" }}>hello@celebsbooking.com</Typography>
+                            <Typography variant="body2" >hello@celebsbooking.com</Typography>
                         </Box>
                     </Grid>
 
                     {/* Instagram */}
                     <Grid size={{ xs: 12, sm: 6, md: 3 }}>
-                        <Typography variant="h6" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 500 }}>
+                        <Typography variant="h6" gutterBottom sx={{ fontWeight: 500 }}>
                             Instagram
                         </Typography>
                         <Grid container spacing={1}>
@@ -75,10 +75,10 @@ const Footer = () => {
 
                     {/* Subscribe */}
                     <Grid size={{ xs: 12, sm: 6, md: 3 }}>
-                        <Typography variant="h6" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 500 }}>
+                        <Typography variant="h6" gutterBottom sx={{ fontWeight: 500 }}>
                             Subscribe
                         </Typography>
-                        <Typography variant="body2" sx={{ mb: 2, lineHeight: 1.6, fontFamily: 'Lato' }}>
+                        <Typography variant="body2" sx={{ mb: 2, lineHeight: 1.6, }}>
                             So why wait when you can celebrate with the biggest stars of the film industry! Contact us today.
                         </Typography>
                         <Box
@@ -108,7 +108,7 @@ const Footer = () => {
                                 }}
                                 InputLabelProps={{ style: { color: '#aaa' } }}
                             />
-                            <IconButton
+                            {/* <IconButton
                                 type="submit"
                                 color="primary"
                                 sx={{
@@ -119,7 +119,7 @@ const Footer = () => {
                                 aria-label="subscribe"
                             >
                                 <ArrowForwardIosIcon />
-                            </IconButton>
+                            </IconButton> */}
                         </Box>
                     </Grid>
                 </Grid>
@@ -129,7 +129,7 @@ const Footer = () => {
             <Box sx={{ bgcolor: '#111', mt: 6, py: 2 }}>
                 <Box sx={{ maxWidth: 1200, mx: 'auto', px: 2 }}>
                     <Grid container alignItems="center" justifyContent="space-between">
-                        <Grid size={{ xs: 12 }} md="auto">
+                        <Grid size={{ xs: 12 }} mx="auto">
                             <Typography variant="caption" sx={{ color: '#aaa' }}>
                                 © Copyright 2017 - Mentor by Vikas Gade,&nbsp;
                                 Developed by{' '}
@@ -137,7 +137,7 @@ const Footer = () => {
                                     href="#"
                                     sx={{ color: '#fff', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
                                 >
-                                    TECHLINKSOFTWARES.
+                                    Jeeva01424@gmail.com
                                 </Link>
                             </Typography>
                         </Grid>

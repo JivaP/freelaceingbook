@@ -1,85 +1,4 @@
-// import { Box, Typography, Grid } from '@mui/material';
-// import { motion } from 'framer-motion';
 
-// const fadeInUp = {
-//     hidden: { opacity: 0, y: 40 },
-//     visible: (i = 1) => ({
-//         opacity: 1,
-//         y: 0,
-//         transition: {
-//             delay: i * 0.2,
-//             duration: 0.6,
-//             ease: 'easeOut',
-//         },
-//     }),
-// };
-
-// export default function CelebrityBookingSection() {
-//     return (
-//         <Grid size={{ xs: 12, md: 7 }} >
-//             <Box sx={{ px: { xs: 2, md: 4 } }}>
-//                 <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-//                     <Typography variant="h4" component="h1" gutterBottom sx={{ fontFamily: 'Montserrat', fontWeight: 500, color: "black" }}>
-//                         Book Your Celebrities & Influencers
-//                     </Typography>
-//                 </motion.div>
-
-//                 {[
-//                     "Some events are meant to impress, some to express — and some to create lifelong memories.",
-//                     "Whether it’s a wedding, corporate gala, brand launch, or private celebration — make it unforgettable with the presence of India’s biggest celebrities and top influencers.",
-//                     "Because nothing grabs attention like a face people already admire. From the red carpet to your own stage — let the star power elevate your occasion.",
-//                     "🎥 Whether you’re looking for:",
-//                 ].map((text, index) => (
-//                     <motion.div
-//                         key={index}
-//                         custom={index + 1}
-//                         variants={fadeInUp}
-//                         initial="hidden"
-//                         whileInView="visible"
-//                         viewport={{ once: true }}
-//                     >
-//                         <Typography paragraph sx={{ fontFamily: 'Lato', color: 'black' }}>
-//                             {text}
-//                         </Typography>
-//                     </motion.div>
-//                 ))}
-
-//                 <motion.div custom={5} variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-//                     <Box component="ul" sx={{ pl: 3, fontFamily: 'Lato', color: "black", mb: 2 }}>
-//                         <li>A Bollywood celebrity for a grand entry</li>
-//                         <li>A regional star for a soulful performance</li>
-//                         <li>Or a trending influencer for real-time social media buzz</li>
-//                     </Box>
-//                 </motion.div>
-
-//                 <motion.div custom={6} variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-//                     <Typography paragraph sx={{ fontFamily: 'Lato', color: 'black' }}>
-//                         We bring them straight to your event — effortlessly, seamlessly.
-//                     </Typography>
-//                 </motion.div>
-
-//                 <motion.div custom={7} variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-//                     <Typography paragraph sx={{ fontFamily: 'Lato', color: 'black' }}>
-//                         📸 Let the paparazzi moments begin. <br />
-//                         Let the glam take over. <br />
-//                         And let your event become the talk of the town.
-//                     </Typography>
-//                 </motion.div>
-
-//                 <motion.div custom={8} variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-//                     <Box sx={{ my: 3 }}>
-//                         <Typography variant="h6" component="h2" sx={{ fontFamily: 'Montserrat', fontWeight: 600, color: "black" }}>
-//                          Ready to Book?
-//                         </Typography>
-//                         <Typography paragraph sx={{ fontFamily: 'Lato', color: "black" }}>
-//                             Just share your requirements, and we’ll match you with the perfect celebrity or influencer to fit your budget, vibe, and vision.
-//                         </Typography>
-//                     </Box>
-//                 </motion.div>
-//             </Box>
-//         </Grid>
-//     );
-// }
 import { Box, Typography, Grid, List, ListItem, ListItemIcon, useTheme, useMediaQuery } from '@mui/material';
 import { motion } from 'framer-motion';
 import {
@@ -90,6 +9,7 @@ import {
     TrendingUp as TrendingIcon,
     CheckCircle as CheckIcon
 } from '@mui/icons-material';
+
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
@@ -121,9 +41,9 @@ export default function CelebrityBookingSection() {
                         component="h1"
                         gutterBottom
                         sx={{
-                            fontFamily: 'Montserrat',
+                            // fontFamily: 'Montserrat',
                             fontWeight: 700,
-                            color: "text.primary",
+                            color: "white",
                             mb: 3,
                             position: 'relative',
                             '&:after': {
@@ -140,6 +60,7 @@ export default function CelebrityBookingSection() {
                     >
                         Book Celebrities & Influencers
                     </Typography>
+
                 </motion.div>
 
                 {/* Opening Paragraphs */}
@@ -151,8 +72,8 @@ export default function CelebrityBookingSection() {
                     viewport={{ once: true }}
                 >
                     <Typography paragraph sx={{
-                        fontFamily: 'Lato',
-                        color: 'text.secondary',
+                        // fontFamily: 'Lato',
+                        color: 'white',
                         fontSize: isMobile ? '1rem' : '1.1rem',
                         lineHeight: 1.7
                     }}>
@@ -168,15 +89,15 @@ export default function CelebrityBookingSection() {
                     viewport={{ once: true }}
                 >
                     <Box sx={{
-                        background: 'linear-gradient(to right, rgba(255,77,77,0.1), rgba(249,203,40,0.1))',
+                        background: 'linear-gradient(to right, rgba(255, 77, 77, 0.42), rgba(226, 225, 220, 0.32))',
                         p: 3,
                         borderRadius: 2,
                         mb: 3,
-                        borderLeft: '4px solid #ff4d4d'
+                        borderLeft: '4px solid #f73d3dff'
                     }}>
                         <Typography paragraph sx={{
-                            fontFamily: 'Lato',
-                            color: 'text.primary',
+                            // fontFamily: 'Lato',
+                            color: 'white',
                             fontSize: isMobile ? '1rem' : '1.1rem',
                             mb: 0
                         }}>
@@ -196,16 +117,16 @@ export default function CelebrityBookingSection() {
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                         <CelebrationIcon color="primary" sx={{ mr: 2, fontSize: '2rem' }} />
                         <Typography variant="h6" sx={{
-                            fontFamily: 'Montserrat',
+                            // fontFamily: 'Montserrat',
                             fontWeight: 600,
-                            color: "text.primary"
+                            color: "white"
                         }}>
                             Because nothing grabs attention like star power
                         </Typography>
                     </Box>
                     <Typography paragraph sx={{
-                        fontFamily: 'Lato',
-                        color: 'text.secondary',
+                        // fontFamily: 'Lato',
+                        color: "white",
                         fontSize: isMobile ? '1rem' : '1.1rem',
                         pl: 6
                     }}>
@@ -222,9 +143,9 @@ export default function CelebrityBookingSection() {
                     viewport={{ once: true }}
                 >
                     <Typography variant="h6" sx={{
-                        fontFamily: 'Montserrat',
+
                         fontWeight: 600,
-                        color: "text.primary",
+                        color: "white",
                         mb: 2,
                         display: 'flex',
                         alignItems: 'center'
@@ -244,8 +165,8 @@ export default function CelebrityBookingSection() {
                                     <item.icon color="primary" />
                                 </ListItemIcon>
                                 <Typography sx={{
-                                    fontFamily: 'Lato',
-                                    color: 'text.secondary',
+
+                                    color: "white",
                                     fontSize: isMobile ? '0.95rem' : '1rem'
                                 }}>
                                     {item.text}
@@ -271,7 +192,7 @@ export default function CelebrityBookingSection() {
                         mb: 3
                     }}>
                         <Typography paragraph sx={{
-                            fontFamily: 'Lato',
+                            
                             color: 'text.primary',
                             fontSize: isMobile ? '1rem' : '1.1rem',
                             fontWeight: 500,
@@ -291,8 +212,8 @@ export default function CelebrityBookingSection() {
                     viewport={{ once: true }}
                 >
                     <Typography paragraph sx={{
-                        fontFamily: 'Lato',
-                        color: 'text.secondary',
+                       
+                       color: "white",
                         fontSize: isMobile ? '1rem' : '1.1rem',
                         mb: 3
                     }}>
@@ -315,16 +236,16 @@ export default function CelebrityBookingSection() {
                         borderColor: 'divider'
                     }}>
                         <Typography variant="h5" component="h2" sx={{
-                            fontFamily: 'Montserrat',
+                           
                             fontWeight: 700,
-                            color: "text.primary",
+                           color: "white",
                             mb: 2
                         }}>
                             Ready to Book?
                         </Typography>
                         <Typography paragraph sx={{
-                            fontFamily: 'Lato',
-                            color: 'text.secondary',
+                           
+                           color: "white",
                             fontSize: isMobile ? '1rem' : '1.1rem',
                             mb: 3
                         }}>
@@ -343,8 +264,8 @@ export default function CelebrityBookingSection() {
                                         <CheckIcon color="primary" />
                                     </ListItemIcon>
                                     <Typography sx={{
-                                        fontFamily: 'Lato',
-                                        color: 'text.secondary',
+                                        
+                                        color: "white",
                                         fontSize: isMobile ? '0.95rem' : '1rem'
                                     }}>
                                         {item}

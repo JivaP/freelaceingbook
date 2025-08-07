@@ -47,7 +47,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 const heroImages = [
-    "/assert/CIV Banner for print (2)_page-0001 (1).jpg",
+    // "/assert/CIV Banner for print (2)_page-0001 (1).jpg",
     '/assert/1.jpg',
     '/assert/2.jpg',
     '/assert/3.jpg',
