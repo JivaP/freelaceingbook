@@ -15,7 +15,7 @@ export default function Homepage() {
     return (
         <>
             <FiveImageSwiper />
-            <AboutBookingSection />
+            {/* <AboutBookingSection /> */}
             <CelebrityCardsSection />
             <TeamMembers />
             <Servicesmain />
