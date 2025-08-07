@@ -12,7 +12,7 @@ import {
 
 
 const fadeInUp = {
-    hidden: { opacity: 0, y: 40 },
+    hidden: { opacity: 1, y: 40 },
     visible: (i = 1) => ({
         opacity: 1,
         y: 0,
