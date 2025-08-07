@@ -9,7 +9,7 @@ export default function Layout() {
     return (
         <>
             <CustomHeader />
-            <Box sx={{ pt: { xs: 7, sm: 4 } }} >
+            <Box sx={{ pt: { xs: "82px", sm: 4 } }} >
 
                 <Outlet />
             </Box >
