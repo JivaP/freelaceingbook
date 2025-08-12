@@ -234,8 +234,8 @@ const CelebrityProjects = () => {
                                             loading="lazy"
                                             sx={{
                                                 width: '100%',
-                                                height: '100%',
-                                                objectFit: 'cover',
+                                                height: '400px',
+                                                objectFit: 'fill',
                                                 transition: 'transform 0.3s ease'
                                             }}
                                         />
