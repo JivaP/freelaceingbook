@@ -30,7 +30,7 @@ function App() {
 
       <Routes>
 
-        {/* Define the main layout wrapper here */}
+     
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
           <Route path="/aboutus" element={<Aboutus />} />
