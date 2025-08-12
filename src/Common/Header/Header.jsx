@@ -17,6 +17,7 @@ import {
     Collapse,
     useMediaQuery,
     useTheme,
+    Link,
 } from '@mui/material';
 import {
     YouTube,
@@ -25,7 +26,6 @@ import {
     ExpandLess, WhatsApp, Instagram,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import "../../App.css";
 
 
