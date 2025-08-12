@@ -196,7 +196,7 @@ export default function CustomHeader() {
                                             {item.nested.map((subItem, idx) => (
                                                 <MenuItem
                                                     key={idx}
-                                                    component="a"
+                                                    component={Link}
                                                     to={subItem.path}
 
 
