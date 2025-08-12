@@ -76,7 +76,7 @@ const CelebrityCardsSection = () => {
                                         image={card.image}
                                         alt={`${card.title} Image`}
                                         sx={{
-                                            objectFit: 'cover',
+                                            objectFit: 'contain',
                                             transition: 'transform 0.5s ease',
                                             '&:hover': {
                                                 transform: 'scale(1.05)'
