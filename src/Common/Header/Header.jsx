@@ -224,7 +224,7 @@ export default function CustomHeader() {
                                     <Button
                                         key={index}
                                         component={Link}
-                                        to={item.path}
+                                        href={item.path}
                                         sx={{
                                             fontFamily: 'Poppins',
                                             textTransform: 'uppercase',
@@ -314,7 +314,7 @@ export default function CustomHeader() {
                                                     key={idx}
                                                     component="a"
                                                     href={subItem.path}
-                                                   
+
                                                     onClick={toggleMobileDrawer}
                                                     sx={{
                                                         color: "white",
@@ -344,7 +344,7 @@ export default function CustomHeader() {
                                     button
                                     key={index}
                                     component={Link}
-                                    to={item.path}
+                                    href={item.path}
                                     onClick={toggleMobileDrawer}
                                     sx={{
                                         color: "white",
