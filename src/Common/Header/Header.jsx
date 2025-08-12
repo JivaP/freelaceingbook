@@ -314,8 +314,7 @@ export default function CustomHeader() {
                                                     key={idx}
                                                     component="a"
                                                     href={subItem.path}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
+                                                   
                                                     onClick={toggleMobileDrawer}
                                                     sx={{
                                                         color: "white",
