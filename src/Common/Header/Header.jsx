@@ -1,326 +1,9 @@
 
-// import React, { useState, useEffect } from 'react';
-// import {
-//     AppBar,
-//     Toolbar,
-//     IconButton,
-//     Typography,
-//     Box,
-//     Container,
-//     Menu,
-//     MenuItem,
-//     Button,
-//     Link as MuiLink,
-//     Drawer,
-//     List,
-//     ListItem,
-//     ListItemText,
-//     Collapse,
-// } from '@mui/material';
-// import {
-//     Facebook,
-//     Twitter,
-//     LinkedIn,
-//     YouTube,
-//     Menu as MenuIcon,
-//     ExpandMore,
-//     ExpandLess,
-// } from '@mui/icons-material';
-// import { motion } from 'framer-motion';
-// import { Link } from 'react-router-dom';
-// import "../../App.css"
-
-// const navItems = [
-//     { label: 'Home', path: '/' },
-//     { label: 'About Us', path: '/aboutus' },
-//     { label: 'Services', path: '/services' },
-//     { label: 'Previous Events', path: '/events' },
-//     {
-//         label: 'Artist',
-//         nested: [
-//             { label: 'Celebrities', path: '/celebrities' },
-//             { label: 'Singers', path: '/singers' },
-//         ],
-//     },
-//     { label: 'Book Now', path: '/book-now' },
-//     { label: 'Connect', path: '/contact' },
-// ];
-
-// export default function CustomHeader() {
-//     const [anchorEl, setAnchorEl] = useState(null);
-//     const [nestedMenu, setNestedMenu] = useState(null);
-//     const [mobileOpen, setMobileOpen] = useState(false);
-//     const [expandedNested, setExpandedNested] = useState(false);
-
-//     const handleMenuOpen = (event, nested) => {
-//         setAnchorEl(event.currentTarget);
-//         setNestedMenu(nested);
-//     };
-
-//     const handleMenuClose = () => {
-//         setAnchorEl(null);
-//         setNestedMenu(null);
-//     };
-
-//     const toggleMobileDrawer = () => {
-//         setMobileOpen(!mobileOpen);
-//     };
-
-//     useEffect(() => {
-//         document.body.style.overflow = mobileOpen ? 'hidden' : 'auto';
-//     }, [mobileOpen]);
-
-//     return (
-//         <Box sx={{
-//             bgcolor: '#000000',
-//             px: 2,
-//             py: 2
-//         }}>
-//             {/* Top Social Icons Bar */}
-//             <Box
-
-//             >
-//                 <Container>
-//                     <Box display="flex" justifyContent="start" gap={1}>
-//                         <IconButton component="a" href="https://www.facebook.com/celebsbooking" sx={{ color: 'white' }}><Facebook /></IconButton>
-//                         <IconButton component="a" href="https://mobile.twitter.com/vikasgade" sx={{ color: 'white' }}><Twitter /></IconButton>
-//                         <IconButton component="a" href="https://in.linkedin.com/in/vikasgade" sx={{ color: 'white' }}><LinkedIn /></IconButton>
-//                         <IconButton component="a" href="#" sx={{ color: 'white' }}><YouTube /></IconButton>
-//                     </Box>
-//                 </Container>
-//             </Box>
-
-//             {/* Sticky AppBar */}
-//             <AppBar
-//                 position="sticky"
-//                 sx={{
-//                     bgcolor: '#000000',
-//                     // zIndex: (theme) => theme.zIndex.drawer + 1,
-//                 }}
-//                 elevation={1}
-//             >
-//                 <Container>
-//                     <Toolbar disableGutters sx={{ justifyContent: 'space-between', zIndex: 999 }}>
-//                         {/* Logo */}
-//                         <motion.div
-//                             initial={{ opacity: 0, y: -20 }}
-//                             animate={{ opacity: 1, y: 0 }}
-//                             transition={{ duration: 0.5 }}
-//                         >
-//                             <MuiLink component={Link} to="/" underline="none">
-//                                 <Typography
-//                                     variant="h4"
-//                                     sx={{ fontWeight: 500, color: '#e30f5f', fontFamily: 'Montserrat' }}
-//                                 >
-//                                     Celeb India Vision
-//                                 </Typography>
-//                                 <Typography
-//                                     variant="subtitle2"
-//                                     sx={{
-//                                         fontFamily: 'Lato',
-//                                         lineHeight: 1,
-//                                         textTransform: 'uppercase',
-//                                         letterSpacing: '7px',
-//                                         color: '#888',
-//                                     }}
-//                                 >
-//                                     Celebrity Management
-//                                 </Typography>
-//                             </MuiLink>
-//                         </motion.div>
-
-//                         {/* Desktop Navigation */}
-//                         <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2 }}>
-//                             {navItems.map((item, index) =>
-//                                 item.nested ? (
-//                                     <Button
-//                                         key={index}
-//                                         onClick={(e) => handleMenuOpen(e, item.nested)}
-//                                         sx={{
-//                                             fontFamily: 'Lato',
-//                                             textTransform: 'uppercase',
-//                                             color: 'white',
-//                                             fontWeight: 400,
-//                                             fontSize: '12px',
-//                                             lineHeight: '20px',
-//                                             position: 'relative',
-//                                             paddingBottom: '4px',
-//                                             '&::after': {
-//                                                 content: '""',
-//                                                 position: 'absolute',
-//                                                 width: '100%',
-//                                                 height: '2px',
-//                                                 backgroundColor: '#e30f5f',
-//                                                 bottom: 0,
-//                                                 left: 0,
-//                                                 transform: 'scaleX(0)',
-//                                                 transformOrigin: 'left',
-//                                                 transition: 'transform 0.3s ease',
-//                                             },
-//                                             '&:hover': {
-//                                                 color: '#e30f5f',
-//                                                 '&::after': {
-//                                                     transform: 'scaleX(1)',
-//                                                 },
-//                                             },
-//                                         }}
-//                                     >
-//                                         <Box display="flex" alignItems="center" gap={0.5}>
-//                                             {item.label}
-//                                             <ExpandMore sx={{ color: 'white' }} />
-//                                         </Box>
-//                                     </Button>
-//                                 ) : (
-//                                     <Button
-//                                         key={index}
-//                                         component={Link}
-//                                         to={item.path}
-//                                         sx={{
-//                                             fontFamily: 'Lato',
-//                                             textTransform: 'uppercase',
-//                                             color: 'white',
-//                                             fontWeight: 400,
-//                                             fontSize: '12px',
-//                                             letterSpacing: '2px',
-//                                             lineHeight: '20px',
-//                                             position: 'relative',
-//                                             paddingBottom: '4px',
-//                                             '&::after': {
-//                                                 content: '""',
-//                                                 position: 'absolute',
-//                                                 width: '100%',
-//                                                 height: '2px',
-//                                                 backgroundColor: '#e30f5f',
-//                                                 bottom: 0,
-//                                                 left: 0,
-//                                                 transform: 'scaleX(0)',
-//                                                 transformOrigin: 'left',
-//                                                 transition: 'transform 0.3s ease',
-//                                             },
-//                                             '&:hover': {
-//                                                 color: '#e30f5f',
-//                                                 '&::after': {
-//                                                     transform: 'scaleX(1)',
-//                                                 },
-//                                             },
-//                                         }}
-//                                     >
-//                                         {item.label}
-//                                     </Button>
-//                                 )
-//                             )}
-
-//                             {/* Desktop Dropdown Menu */}
-//                             <Menu
-//                                 anchorEl={anchorEl}
-//                                 open={Boolean(anchorEl)}
-//                                 onClose={handleMenuClose}
-//                             >
-//                                 {nestedMenu?.map((subItem, idx) => (
-//                                     <MenuItem
-//                                         key={idx}
-//                                         component={Link}
-//                                         to={subItem.path}
-
-//                                         onClick={handleMenuClose}
-//                                     >
-//                                         {subItem.label}
-//                                     </MenuItem>
-//                                 ))}
-//                             </Menu>
-//                         </Box>
-
-//                         {/* Mobile Menu Icon */}
-//                         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-//                             <IconButton onClick={toggleMobileDrawer}>
-//                                 <MenuIcon sx={{ color: 'white' }} />
-//                             </IconButton>
-//                         </Box>
-//                     </Toolbar>
-//                 </Container>
-//             </AppBar>
-
-//             {/* Mobile Drawer */}
-//             <Drawer anchor="left" open={mobileOpen} onClose={toggleMobileDrawer}>
-//                 <Box
-//                     sx={{
-//                         width: 430,
-//                         bgcolor: '#000',
-//                         height: '100%',
-//                         color: '#fff',
-//                     }}
-//                     role="presentation"
-//                     onClick={toggleMobileDrawer}
-//                 >
-//                     <List>
-//                         {navItems.map((item, index) =>
-//                             item.nested ? (
-//                                 <React.Fragment key={index}>
-//                                     <ListItem button onClick={() => setExpandedNested(!expandedNested)}>
-//                                         <ListItemText primary={item.label} />
-//                                         {expandedNested ? <ExpandLess /> : <ExpandMore />}
-//                                     </ListItem>
-//                                     <Collapse in={expandedNested} timeout="auto" unmountOnExit>
-//                                         <List component="div" disablePadding>
-//                                             {item.nested.map((subItem, idx) => (
-//                                                 <ListItem
-//                                                     button
-//                                                     key={idx}
-//                                                     component={Link}
-//                                                     to={subItem.path}
-//                                                     sx={{ pl: 4, fontFamily: 'Lato', }}
-//                                                 >
-//                                                     <ListItemText primary={subItem.label} sx={{ fontFamily: 'Lato', }} />
-//                                                 </ListItem>
-//                                             ))}
-//                                         </List>
-//                                     </Collapse>
-//                                 </React.Fragment>
-//                             ) : (
-//                                 <ListItem button key={index} component={Link} to={item.path} sx={{ fontFamily: 'Lato', }}>
-//                                     <ListItemText primary={item.label} sx={{
-//                                         fontFamily: 'Lato',
-//                                         textTransform: 'capitalize',
-//                                         color: 'white',
-//                                         fontWeight: 400,
-//                                         fontSize: '14px',
-//                                         lineHeight: '20px',
-//                                         position: 'relative',
-//                                         paddingBottom: '4px',
-//                                         '&::after': {
-//                                             content: '""',
-//                                             position: 'absolute',
-//                                             width: '100%',
-//                                             height: '2px',
-//                                             backgroundColor: '#e30f5f',
-//                                             bottom: 0,
-//                                             left: 0,
-//                                             transform: 'scaleX(0)',
-//                                             transformOrigin: 'left',
-//                                             transition: 'transform 0.3s ease',
-//                                         },
-//                                         '&:hover': {
-//                                             color: '#e30f5f',
-//                                             '&::after': {
-//                                                 transform: 'scaleX(1)',
-//                                             },
-//                                         },
-//                                     }} />
-//                                 </ListItem>
-//                             )
-//                         )}
-//                     </List>
-//                 </Box>
-//             </Drawer>
-//         </Box>
-//     );
-// }
 import React, { useState, useEffect } from 'react';
 import {
     AppBar,
     Toolbar,
     IconButton,
-    Typography,
     Box,
     Container,
     Menu,
@@ -336,22 +19,33 @@ import {
     useTheme,
 } from '@mui/material';
 import {
-    Facebook,
-    Twitter,
-    LinkedIn,
     YouTube,
     Menu as MenuIcon,
     ExpandMore,
-    ExpandLess,
+    ExpandLess, WhatsApp, Instagram,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import "../../App.css"
+import "../../App.css";
+
 
 const navItems = [
     { label: 'Home', path: '/' },
     { label: 'About Us', path: '/aboutus' },
-    { label: 'Services', path: '/services' },
+    {
+        label: 'Services',
+        nested: [
+            { label: 'Talent Management', path: '/talent-management' },
+            { label: 'Event Management', path: '/event-management' },
+            { label: 'Brand Jingle Creations', path: '/brand-jingle-creations' },
+            { label: 'PR seedings & Media Ads', path: '/pr-seedings&media-ads' },
+            { label: 'Movie & OTT Integrations', path: '/movie&ott-integrations' },
+            { label: 'Immersive Tech – AR/VR', path: '/immersive-tech–ar-vr' },
+            { label: 'Brand Consultancy', path: '/brand-consultancy' },
+            { label: 'Sponsorship Opportunities', path: '/sponsorship-opportunities' },
+            { label: 'TVC & Digital Ads', path: '/tvc&digitalads' },
+        ],
+    },
     { label: 'Previous Events', path: '/events' },
     {
         label: 'Artist',
@@ -361,7 +55,7 @@ const navItems = [
         ],
     },
     { label: 'Book Now', path: '/book-now' },
-    { label: 'Connect', path: '/contact' },
+    { label: 'Contact', path: '/contact' },
 ];
 
 export default function CustomHeader() {
@@ -403,15 +97,11 @@ export default function CustomHeader() {
             px: { xs: 1, sm: 2 },
             py: { xs: 1, sm: 2 }
         }}>
-
-
-            {/* Sticky AppBar */}
             <AppBar
                 position="fixed"
                 sx={{
                     bgcolor: '#ffffffff',
                     boxShadow: 'none',
-                    // borderBottom: '1px solid rgba(255,255,255,0.1)',
                 }}
             >
                 <Container maxWidth="xl">
@@ -423,7 +113,7 @@ export default function CustomHeader() {
                             transition={{ duration: 0.5 }}
                         >
                             <MuiLink component={Link} to="/" underline="none">
-                                <img src="/New Project.svg" alt="" width={200} style={{objectFit:"cover"}} />
+                                <img src="/New Project.svg" alt="" width={200} style={{ objectFit: "cover" }} />
                             </MuiLink>
                         </motion.div>
 
@@ -431,47 +121,105 @@ export default function CustomHeader() {
                         <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 1 }}>
                             {navItems.map((item, index) =>
                                 item.nested ? (
-                                    <Button
+                                    <Box
                                         key={index}
-                                        onClick={(e) => handleMenuOpen(e, item.nested)}
-                                        sx={{
-                                            fontFamily: 'Poppins',
-                                            textTransform: 'uppercase',
-                                            color: 'black',
-                                            fontWeight: 700,
-                                            fontSize: '0.75rem',
-                                            letterSpacing: '1px',
-                                            minWidth: 'auto',
-                                            px: 1.5,
-                                            position: 'relative',
-                                            '&:hover': {
-                                                color: '#e30f5f',
-                                                '&::after': {
-                                                    transform: 'scaleX(1)',
-                                                },
-                                            },
-                                            '&::after': {
-                                                content: '""',
-                                                position: 'absolute',
-                                                width: 'calc(100% - 24px)',
-                                                height: '2px',
-                                                backgroundColor: '#e30f5f',
-                                                bottom: 0,
-                                                left: '12px',
-                                                transform: 'scaleX(0)',
-                                                transformOrigin: 'center',
-                                                transition: 'transform 0.3s ease',
-                                            },
-                                        }}
+                                        onMouseEnter={(e) => handleMenuOpen(e, item.nested)}
+                                        onMouseLeave={handleMenuClose}
                                     >
-                                        <Box display="flex" alignItems="center" gap={0.5}>
-                                            {item.label}
-                                            <ExpandMore sx={{
-                                                color: 'inherit',
-                                                fontSize: '1rem',
-                                            }} />
-                                        </Box>
-                                    </Button>
+                                        <Button
+                                            sx={{
+                                                fontFamily: 'Poppins',
+                                                textTransform: 'uppercase',
+                                                color: 'black',
+                                                fontWeight: 700,
+                                                fontSize: '0.75rem',
+                                                letterSpacing: '1px',
+                                                minWidth: 'auto',
+                                                px: 1.5,
+                                                position: 'relative',
+                                                '&:hover': {
+                                                    color: '#e30f5f',
+                                                    '&::after': { transform: 'scaleX(1)' },
+                                                },
+                                                '&::after': {
+                                                    content: '""',
+                                                    position: 'absolute',
+                                                    width: 'calc(100% - 24px)',
+                                                    height: '2px',
+                                                    backgroundColor: '#e30f5f',
+                                                    bottom: 0,
+                                                    left: '12px',
+                                                    transform: 'scaleX(0)',
+                                                    transformOrigin: 'center',
+                                                    transition: 'transform 0.3s ease',
+                                                },
+                                            }}
+                                        >
+                                            <Box display="flex" alignItems="center" gap={0.5}>
+                                                {item.label}
+                                                <ExpandMore sx={{ color: 'inherit', fontSize: '1rem' }} />
+                                            </Box>
+                                        </Button>
+
+                                        {/* Styled Dropdown Menu */}
+                                        <Menu
+                                            anchorEl={anchorEl}
+                                            open={Boolean(anchorEl) && nestedMenu === item.nested}
+                                            onClose={handleMenuClose}
+                                            MenuListProps={{
+                                                onMouseEnter: () => { },
+                                                onMouseLeave: handleMenuClose,
+                                            }}
+                                            anchorOrigin={{
+                                                vertical: 'bottom',
+                                                horizontal: 'center',
+                                            }}
+                                            transformOrigin={{
+                                                vertical: 'top',
+                                                horizontal: 'center',
+                                            }}
+                                            sx={{
+                                                '& .MuiPaper-root': {
+                                                    bgcolor: '#111',
+                                                    borderRadius: '10px',
+                                                    overflow: 'hidden',
+                                                    border: '1px solid rgba(255,255,255,0.1)',
+                                                    boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
+                                                    animation: 'fadeIn 0.3s ease',
+                                                },
+                                                '@keyframes fadeIn': {
+                                                    from: { opacity: 0, transform: 'translateY(-10px)' },
+                                                    to: { opacity: 1, transform: 'translateY(0)' },
+                                                }
+                                            }}
+                                        >
+                                            {item.nested.map((subItem, idx) => (
+                                                <MenuItem
+                                                    key={idx}
+                                                    component="a"
+                                                    href={subItem.path}
+
+
+                                                    onClick={handleMenuClose}
+                                                    sx={{
+                                                        color: 'white',
+                                                        py: 1.2,
+                                                        px: 2.5,
+                                                        fontSize: '0.9rem',
+                                                        borderBottom: idx !== item.nested.length - 1 ? '1px solid rgba(255,255,255,0.08)' : 'none',
+                                                        transition: 'all 0.3s ease',
+                                                        '&:hover': {
+                                                            color: '#e30f5f',
+                                                            bgcolor: 'rgba(255,255,255,0.05)',
+                                                            pl: 3,
+                                                        },
+                                                    }}
+                                                >
+                                                    {subItem.label}
+                                                </MenuItem>
+                                            ))}
+                                        </Menu>
+                                    </Box>
                                 ) : (
                                     <Button
                                         key={index}
@@ -489,9 +237,7 @@ export default function CustomHeader() {
                                             position: 'relative',
                                             '&:hover': {
                                                 color: '#e30f5f',
-                                                '&::after': {
-                                                    transform: 'scaleX(1)',
-                                                },
+                                                '&::after': { transform: 'scaleX(1)' },
                                             },
                                             '&::after': {
                                                 content: '""',
@@ -511,53 +257,11 @@ export default function CustomHeader() {
                                     </Button>
                                 )
                             )}
-
-                            {/* Desktop Dropdown Menu */}
-                            <Menu
-                                anchorEl={anchorEl}
-                                open={Boolean(anchorEl)}
-                                onClose={handleMenuClose}
-                                anchorOrigin={{
-                                    vertical: 'bottom',
-                                    horizontal: 'center',
-                                }}
-                                transformOrigin={{
-                                    vertical: 'top',
-                                    horizontal: 'center',
-                                }}
-                                sx={{
-                                    '& .MuiPaper-root': {
-                                        bgcolor: '#000',
-                                        border: '1px solid rgba(255,255,255,0.1)',
-                                    }
-                                }}
-                            >
-                                {nestedMenu?.map((subItem, idx) => (
-                                    <MenuItem
-                                        key={idx}
-                                        component={Link}
-                                        to={subItem.path}
-                                        onClick={handleMenuClose}
-                                        sx={{
-                                            color: 'black',
-                                            '&:hover': {
-                                                color: '#e30f5f',
-                                                bgcolor: 'rgba(255,255,255,0.05)',
-                                            },
-                                        }}
-                                    >
-                                        {subItem.label}
-                                    </MenuItem>
-                                ))}
-                            </Menu>
                         </Box>
 
                         {/* Mobile Menu Button */}
                         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-                            <IconButton
-                                onClick={toggleMobileDrawer}
-                                sx={{ color: 'black' }}
-                            >
+                            <IconButton onClick={toggleMobileDrawer} sx={{ color: 'black' }}>
                                 <MenuIcon />
                             </IconButton>
                         </Box>
@@ -579,10 +283,7 @@ export default function CustomHeader() {
                     }
                 }}
             >
-                <Box
-                    role="presentation"
-                    sx={{ height: '100%' }}
-                >
+                <Box role="presentation" sx={{ height: '100%' }}>
                     <List sx={{ py: 2 }}>
                         {navItems.map((item, index) =>
                             item.nested ? (
@@ -591,9 +292,8 @@ export default function CustomHeader() {
                                         button
                                         onClick={toggleNestedMenu}
                                         sx={{
-                                            '&:hover': {
-                                                color: '#e30f5f',
-                                            },
+                                            color: "white",
+                                            '&:hover': { color: '#e30f5f' },
                                         }}
                                     >
                                         <ListItemText
@@ -612,10 +312,13 @@ export default function CustomHeader() {
                                                 <ListItem
                                                     button
                                                     key={idx}
-                                                    component={Link}
-                                                    to={subItem.path}
+                                                    component="a"
+                                                    href={subItem.path}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                     onClick={toggleMobileDrawer}
                                                     sx={{
+                                                        color: "white",
                                                         pl: 4,
                                                         '&:hover': {
                                                             color: '#e30f5f',
@@ -624,6 +327,7 @@ export default function CustomHeader() {
                                                     }}
                                                 >
                                                     <ListItemText
+                                                        sx={{ color: "white" }}
                                                         primary={subItem.label}
                                                         primaryTypographyProps={{
                                                             fontFamily: 'Lato',
@@ -644,6 +348,8 @@ export default function CustomHeader() {
                                     to={item.path}
                                     onClick={toggleMobileDrawer}
                                     sx={{
+                                        color: "white",
+                                        fontFamily: "Poppins",
                                         '&:hover': {
                                             color: '#e30f5f',
                                             bgcolor: 'rgba(255,255,255,0.05)',
@@ -651,6 +357,13 @@ export default function CustomHeader() {
                                     }}
                                 >
                                     <ListItemText
+                                        sx={{
+                                            colo: "white",
+                                            '&:hover': {
+                                                color: '#e30f5f',
+                                                bgcolor: 'rgba(255,255,255,0.05)',
+                                            },
+                                        }}
                                         primary={item.label}
                                         primaryTypographyProps={{
                                             fontFamily: 'Lato',
@@ -664,6 +377,7 @@ export default function CustomHeader() {
                     </List>
 
                     {/* Mobile Social Icons */}
+
                     <Box sx={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -672,13 +386,38 @@ export default function CustomHeader() {
                         py: 3,
                         borderTop: '1px solid rgba(255,255,255,0.1)'
                     }}>
-                        <IconButton component="a" href="https://www.facebook.com/celebsbooking" sx={{ color: 'white' }}><Facebook /></IconButton>
-                        <IconButton component="a" href="https://mobile.twitter.com/vikasgade" sx={{ color: 'white' }}><Twitter /></IconButton>
-                        <IconButton component="a" href="https://in.linkedin.com/in/vikasgade" sx={{ color: 'white' }}><LinkedIn /></IconButton>
-                        <IconButton component="a" href="#" sx={{ color: 'white' }}><YouTube /></IconButton>
+                        <IconButton
+                            component="a"
+                            href="https://wa.me/919054510329"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{ color: 'white' }}
+                        >
+                            <WhatsApp />
+                        </IconButton>
+                        <IconButton
+                            component="a"
+                            href="https://www.instagram.com/celebindiavision?igsh=eTRrZWZ2b25zbjV0&utm_source=qr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{ color: 'white' }}
+                        >
+                            <Instagram />
+                        </IconButton>
+                        <IconButton
+                            component="a"
+                            href="https://youtube.com/@celebindiavision?si=m68zEAekx9PMLU-s"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{ color: 'white' }}
+                        >
+                            <YouTube />
+                        </IconButton>
                     </Box>
+
                 </Box>
             </Drawer>
         </Box>
     );
 }
+

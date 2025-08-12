@@ -71,7 +71,7 @@ export default function ContactUs() {
                                     fontWeight: 600,
                                 }}
                             >
-                                ENQUIRY FORM
+                                INQUIRY  FORM
                             </Typography>
                         </Box>
                     </Box>

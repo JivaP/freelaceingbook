@@ -167,7 +167,7 @@ export default function CelebrityGrid() {
                                             sx={{
                                                 width: '100%',
                                                 height: '100%',
-                                                objectFit: 'cover',
+                                                objectFit: 'contain',
                                                 transition: 'transform 0.5s ease',
                                                 '&:hover': {
                                                     transform: 'scale(1.05)'

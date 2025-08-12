@@ -1,5 +1,7 @@
 import { Box, Button, Card, CardContent, Grid, TextField, Typography, useMediaQuery, useTheme } from '@mui/material'
 import React from 'react'
+import MyButton from '../Button/Button';
+import SendIcon from '@mui/icons-material/Send';
 
 export default function Form() {
     const theme = useTheme();
@@ -86,29 +88,12 @@ export default function Form() {
                                 }}
                             />
 
-                            <Button
-                                type="submit"
-                                variant="contained"
-                                fullWidth
-                                sx={{
-                                    mt: 3,
-                                    py: 1.5,
-                                    borderRadius: 2,
-                                    background: 'linear-gradient(to right, #e30f5f, #ff4d4d)',
-                                    '&:hover': {
-                                        background: 'linear-gradient(to right, #c00d52, #e30f5f)',
-                                        transform: 'translateY(-2px)',
-                                        boxShadow: '0 4px 12px rgba(227, 15, 95, 0.3)'
-                                    },
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: 600,
-                                    fontSize: '1rem',
-                                    transition: 'all 0.3s ease',
-                                    textTransform: 'uppercase'
-                                }}
-                            >
-                                Submit Booking
-                            </Button>
+                             <MyButton
+                                            // fullWidth={true}
+                                            // variant="contained"
+                                            name="Submit Booking"
+                                            icons={<SendIcon sx={{ fontSize: '1.2rem' }} />}
+                                        />
                         </Box>
                     </CardContent>
                 </Card>

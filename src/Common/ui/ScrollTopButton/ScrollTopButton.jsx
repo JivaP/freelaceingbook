@@ -93,13 +93,13 @@ const ScrollTopButton = () => {
                 <Tooltip title="Follow us on Instagram" arrow>
                     <IconButton
                         color="primary"
-                        href="https://www.instagram.com/celebsbooking/"
+                        href="https://www.instagram.com/celebindiavision?igsh=eTRrZWZ2b25zbjV0&utm_source=qr"
                         target="_blank"
                         rel="noopener noreferrer"
                         sx={{
-                            backgroundColor: '#e30f5f',
+                            backgroundColor: '#ff0000',
                             color: 'white',
-                            '&:hover': { backgroundColor: '#c00d52' },
+                            '&:hover': { backgroundColor: '#ff0000' },
                             boxShadow: '0px 2px 8px rgba(227, 15, 95, 0.3)',
                         }}
                     >
@@ -110,7 +110,7 @@ const ScrollTopButton = () => {
                 <Tooltip title="Chat on WhatsApp" arrow>
                     <IconButton
                         color="primary"
-                        href="https://api.whatsapp.com/send?phone=+918849104707&text=Welcome%20to%20Celebs%20Booking"
+                        href="https://api.whatsapp.com/send?phone=+919054510329&text=Welcome%20to%20Celeb India vision%20Booking"
                         target="_blank"
                         rel="noopener noreferrer"
                         sx={{
@@ -142,13 +142,13 @@ const ScrollTopButton = () => {
                         size="medium"
                         aria-label="scroll back to top"
                         sx={{
-                            backgroundColor: '#e30f5f',
+                            backgroundColor: '#fdfcfcff',
                             color: 'white',
-                            '&:hover': { backgroundColor: '#c00d52' },
+                            '&:hover': { backgroundColor: '#ff0000b2' },
                             boxShadow: '0px 4px 10px rgba(227, 15, 95, 0.3)',
                         }}
                     >
-                        <KeyboardArrowUpIcon />
+                        <KeyboardArrowUpIcon sx={{ color: "black", '&hover': { color: "white" } }} />
                     </Fab>
                 </Box>
             </Zoom>

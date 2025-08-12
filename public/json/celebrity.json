@@ -1,7 +1,8 @@
 {
     "Sonu Sood": {
         "title": "Actor and Philanthropist",
-        "image": "https://example.com/sonu_sood.jpg",
+        "image": "/celebries/Sonu Sood.jfif",
+        "link": "https://www.instagram.com/sonu_sood/?hl=en",
         "commercial_details": [
             {
                 "Category": "Brand promotion video with 3 month usage right",
@@ -27,7 +28,8 @@
     },
     "Jaya Kishori": {
         "title": "Spiritual Speaker",
-        "image": "https://example.com/jaya_kishori.jpg",
+        "image":"/celebries/Jaya Kishori.jfif" ,
+        "link": "https://www.instagram.com/jayakishori/",
         "commercial_details": [
             {
                 "Category": "Motivational talk",
@@ -46,6 +48,7 @@
     "Kumar Vishwas": {
         "title": "Poet and Politician",
         "image": "https://example.com/kumar_vishwas.jpg",
+        "link": "https://www.instagram.com/kumarvishwas/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -68,6 +71,8 @@
     "Rashmi Desai": {
         "title": "Actress",
         "image": "https://example.com/rashmi_desai.jpg",
+        "link": "https://www.instagram.com/rashamidesai/",
+
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -94,6 +99,7 @@
     "Sonal Chauhan": {
         "title": "Actress and Model",
         "image": "https://example.com/sonal_chauhan.jpg",
+        "link": "https://www.instagram.com/sonalchauhan/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -116,6 +122,7 @@
     "Rupali Ganguly": {
         "title": "Actress",
         "image": "https://example.com/rupali_ganguly.jpg",
+        "link": "https://www.instagram.com/rupaliganguly/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -142,6 +149,7 @@
     "Aftab Shivdasani": {
         "title": "Actor",
         "image": "https://example.com/aftab_shivdasani.jpg",
+        "link": "https://www.instagram.com/aftabshivdasani/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -168,6 +176,7 @@
     "Urmila Matondkar": {
         "title": "Actress",
         "image": "https://example.com/urmila_matondkar.jpg",
+        "link": "https://www.instagram.com/urmilamatondkarofficial/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -194,6 +203,7 @@
     "Soha Ali Khan": {
         "title": "Actress",
         "image": "https://example.com/soha_ali_khan.jpg",
+        "link": "https://www.instagram.com/sohaaliakhan/",
         "commercial_details": [
             {
                 "Category": "Insta reel",
@@ -220,6 +230,7 @@
     "Sonali Bendre": {
         "title": "Actress",
         "image": "https://example.com/sonali_bendre.jpg",
+        "link": "https://www.instagram.com/iamsonalibendre/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -246,6 +257,7 @@
     "Raveena Tandon": {
         "title": "Actress",
         "image": "https://example.com/raveena_tandon.jpg",
+        "link": "https://www.instagram.com/raveenatandon/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -272,6 +284,7 @@
     "Kiara Advani": {
         "title": "Actress",
         "image": "https://example.com/kiara_advani.jpg",
+        "link": "https://www.instagram.com/kiaraaliaadvani/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -298,6 +311,7 @@
     "Jimmy Shergill": {
         "title": "Actor",
         "image": "https://example.com/jimmy_shergill.jpg",
+        "link": "https://www.instagram.com/jimmyshergill/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -324,6 +338,7 @@
     "Neil Nitin Mukesh": {
         "title": "Actor",
         "image": "https://example.com/neil_nitin_mukesh.jpg",
+        "link": "https://www.instagram.com/neilnitinmukesh/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -350,6 +365,7 @@
     "Jackie Shroff": {
         "title": "Actor",
         "image": "https://example.com/jackie_shroff.jpg",
+        "link": "https://www.instagram.com/jackieshroff/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -364,6 +380,7 @@
     "Vivek Oberoi": {
         "title": "Actor",
         "image": "https://example.com/vivek_oberoi.jpg",
+        "link": "https://www.instagram.com/vivekoberoi/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -390,6 +407,7 @@
     "Shreya Dhanwantri": {
         "title": "Actress",
         "image": "https://example.com/shreya_dhanwantri.jpg",
+        "link": "https://www.instagram.com/shreyadhanwanthary/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -416,6 +434,7 @@
     "Pooja Gor": {
         "title": "Actress",
         "image": "https://example.com/pooja_gor.jpg",
+        "link": "https://www.instagram.com/poojagor/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -442,6 +461,7 @@
     "Divyanka Tripathi": {
         "title": "Actress",
         "image": "https://example.com/divyanka_tripathi.jpg",
+        "link": "https://www.instagram.com/divyankatripathi/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -468,6 +488,7 @@
     "Shivangi Joshi": {
         "title": "Actress",
         "image": "https://example.com/shivangi_joshi.jpg",
+        "link": "https://www.instagram.com/shivangijoshi18/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -494,6 +515,7 @@
     "Ashutosh Rana": {
         "title": "Actor",
         "image": "https://example.com/ashutosh_rana.jpg",
+        "link": "https://www.instagram.com/ashutoshrana/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -520,6 +542,7 @@
     "Akshara Singh": {
         "title": "Actress",
         "image": "https://example.com/akshara_singh.jpg",
+        "link": "https://www.instagram.com/aksharasingh38/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -546,6 +569,7 @@
     "Bharti Singh": {
         "title": "Comedian",
         "image": "https://example.com/bharti_singh.jpg",
+        "link": "https://www.instagram.com/bharti.laughterqueen/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -576,6 +600,7 @@
     "Hina Khan": {
         "title": "Actress",
         "image": "https://example.com/hina_khan.jpg",
+        "link": "https://www.instagram.com/realhinakhan/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -602,6 +627,7 @@
     "Shweta Tiwari": {
         "title": "Actress",
         "image": "https://example.com/shweta_tiwari.jpg",
+        "link": "https://www.instagram.com/shweta.tiwari/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -632,6 +658,7 @@
     "Palak Tiwari": {
         "title": "Actress",
         "image": "https://example.com/palak_tiwari.jpg",
+        "link": "https://www.instagram.com/palaktiwarii/",
         "commercial_details": [
             {
                 "Category": "Instagram Reel",
@@ -662,6 +689,7 @@
     "Zarine Khan": {
         "title": "Actress and Model",
         "image": "https://example.com/zarine_khan.jpg",
+        "link": "https://www.instagram.com/zarinekhann/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -688,6 +716,7 @@
     "Sonam Bajwa": {
         "title": "Actress",
         "image": "https://example.com/sonam_bajwa.jpg",
+        "link": "https://www.instagram.com/sonambajwa/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -714,6 +743,7 @@
     "Zayyed Khan": {
         "title": "Actor",
         "image": "https://example.com/zayyed_khan.jpg",
+        "link": "https://www.instagram.com/zayedkhan/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -740,6 +770,7 @@
     "Aditi Rao Hydari": {
         "title": "Actress",
         "image": "https://example.com/aditi_rao_hydari.jpg",
+        "link": "https://www.instagram.com/aditiraohydari/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -766,6 +797,7 @@
     "Yami Gautam": {
         "title": "Actress",
         "image": "https://example.com/yami_gautam.jpg",
+        "link": "https://www.instagram.com/yamigautam/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -792,6 +824,7 @@
     "Vidya Balan": {
         "title": "Actress",
         "image": "https://example.com/vidya_balan.jpg",
+        "link": "https://www.instagram.com/vidyabalan/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -818,6 +851,7 @@
     "Tara Sutaria": {
         "title": "Actress",
         "image": "https://example.com/tara_sutaria.jpg",
+        "link": "https://www.instagram.com/tarasutaria/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -844,6 +878,7 @@
     "Disha Patani": {
         "title": "Actress",
         "image": "https://example.com/disha_patani.jpg",
+        "link": "https://www.instagram.com/dishapatani/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -870,6 +905,7 @@
     "Shweta Tripathi": {
         "title": "Actress",
         "image": "https://example.com/shweta_tripathi.jpg",
+        "link": "https://www.instagram.com/shwetatripathiroy/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -896,6 +932,7 @@
     "Vikrant Massey": {
         "title": "Actor",
         "image": "https://example.com/vikrant_massey.jpg",
+        "link": "https://www.instagram.com/vikrantmassey/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -922,6 +959,7 @@
     "Kriti Kharbanda": {
         "title": "Actress",
         "image": "https://example.com/kriti_kharbanda.jpg",
+        "link": "https://www.instagram.com/kritikharbanda/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -948,6 +986,7 @@
     "Esha Gupta": {
         "title": "Actress and Model",
         "image": "https://example.com/esha_gupta.jpg",
+        "link": "https://www.instagram.com/egupta/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -974,6 +1013,7 @@
     "Neha Sharma": {
         "title": "Actress",
         "image": "https://example.com/neha_sharma.jpg",
+        "link": "https://www.instagram.com/nehasarma/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1000,6 +1040,7 @@
     "Divyendu": {
         "title": "Actor",
         "image": "https://example.com/divyendu.jpg",
+        "link": "https://www.instagram.com/divyenndu/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1026,6 +1067,7 @@
     "Manisha Koirala": {
         "title": "Actress",
         "image": "https://example.com/manisha_koirala.jpg",
+        "link": "https://www.instagram.com/m_koirala/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1056,6 +1098,7 @@
     "Tahira Kashyap": {
         "title": "Author and Filmmaker",
         "image": "https://example.com/tahira_kashyap.jpg",
+        "link": "https://www.instagram.com/tahirakashyap/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1082,6 +1125,7 @@
     "Shruti Jha": {
         "title": "Actress",
         "image": "https://example.com/shruti_jha.jpg",
+        "link": "https://www.instagram.com/shruti_jha/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1108,6 +1152,7 @@
     "Sophie Chaudhary": {
         "title": "Actress and Model",
         "image": "https://example.com/sophie_chaudhary.jpg",
+        "link": "https://www.instagram.com/sophiechoudry/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1138,6 +1183,7 @@
     "Urvashi Rautela": {
         "title": "Actress and Model",
         "image": "https://example.com/urvashi_rautela.jpg",
+        "link": "https://www.instagram.com/urvashirautela/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1164,6 +1210,7 @@
     "Prajakta Kohli": {
         "title": "YouTuber and Actress",
         "image": "https://example.com/prajakta_kohli.jpg",
+        "link": "https://www.instagram.com/prajakta_kohli/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1190,6 +1237,7 @@
     "Nia Sharma": {
         "title": "Actress",
         "image": "https://example.com/nia_sharma.jpg",
+        "link": "https://www.instagram.com/niasharma90/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1216,6 +1264,7 @@
     "Sara Ali Khan": {
         "title": "Actress",
         "image": "https://example.com/sara_ali_khan.jpg",
+        "link": "https://www.instagram.com/saraalikhan95/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1242,6 +1291,7 @@
     "Rashmika Mandanna": {
         "title": "Actress",
         "image": "https://example.com/rashmika_mandanna.jpg",
+        "link": "https://www.instagram.com/rashmika_mandanna/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1268,6 +1318,7 @@
     "Genelia Dsouza": {
         "title": "Actress",
         "image": "https://example.com/genelia_dsouza.jpg",
+        "link": "https://www.instagram.com/geneliad/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1294,6 +1345,7 @@
     "Ritesh Deshmukh": {
         "title": "Actor",
         "image": "https://example.com/ritesh_deshmukh.jpg",
+        "link": "https://www.instagram.com/riteshd/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1320,6 +1372,7 @@
     "Juhi Chawla": {
         "title": "Actress",
         "image": "https://example.com/juhi_chawla.jpg",
+        "link": "https://www.instagram.com/juhichawla/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1346,6 +1399,7 @@
     "Randeep Hooda": {
         "title": "Actor",
         "image": "https://example.com/randeep_hooda.jpg",
+        "link": "https://www.instagram.com/randeephooda/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1372,6 +1426,7 @@
     "Mouni Roy": {
         "title": "Actress",
         "image": "https://example.com/mouni_roy.jpg",
+        "link": "https://www.instagram.com/imouniroy/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1398,6 +1453,7 @@
     "Sharad Saxena": {
         "title": "Actor",
         "image": "https://example.com/sharad_saxena.jpg",
+        "link": "https://www.instagram.com/sharadsaxenaofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1424,6 +1480,7 @@
     "Reem Sameer Sheikh": {
         "title": "Actress",
         "image": "https://example.com/reem_sameer_sheikh.jpg",
+        "link": "https://www.instagram.com/reemsameersheikh/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1450,6 +1507,7 @@
     "Sanjay Mishra": {
         "title": "Actor",
         "image": "https://example.com/sanjay_mishra.jpg",
+        "link": "https://www.instagram.com/sanjaymishra_official/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1476,6 +1534,7 @@
     "Sushant Singh": {
         "title": "Actor",
         "image": "https://example.com/sushant_singh.jpg",
+        "link": "https://www.instagram.com/sushantsinghrajput/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1502,6 +1561,7 @@
     "Raghubeer Yadav": {
         "title": "Actor",
         "image": "https://example.com/raghubeer_yadav.jpg",
+        "link": "https://www.instagram.com/raghubeer_yadav/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1528,6 +1588,7 @@
     "Adah Sharma": {
         "title": "Actress",
         "image": "https://example.com/adah_sharma.jpg",
+        "link": "https://www.instagram.com/adah_sharma/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1554,6 +1615,7 @@
     "Atul Khatri": {
         "title": "Comedian",
         "image": "https://example.com/atul_khatri.jpg",
+        "link": "https://www.instagram.com/atulkhatri/",
         "commercial_details": [
             {
                 "Category": "Mumbai Performance",
@@ -1568,6 +1630,7 @@
     "Nimrat Kaur": {
         "title": "Actress",
         "image": "https://example.com/nimrat_kaur.jpg",
+        "link": "https://www.instagram.com/nimratofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1594,6 +1657,7 @@
     "Sanya Malhotra": {
         "title": "Actress",
         "image": "https://example.com/sanya_malhotra.jpg",
+        "link": "https://www.instagram.com/sanyamalhotra/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1620,6 +1684,7 @@
     "Poonam Dhillon": {
         "title": "Actress",
         "image": "https://example.com/poonam_dhillon.jpg",
+        "link": "https://www.instagram.com/poonamdhillon/",
         "commercial_details": [
             {
                 "Category": "Reels",
@@ -1646,6 +1711,7 @@
     "Ayesha Jhulka": {
         "title": "Actress",
         "image": "https://example.com/ayesha_jhulka.jpg",
+        "link": "https://www.instagram.com/ayesha_jhulka/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -1656,6 +1722,7 @@
     "Kapil Sharma": {
         "title": "Comedian and Actor",
         "image": "https://example.com/kapil_sharma.jpg",
+        "link": "https://www.instagram.com/kapilsharma/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1682,6 +1749,7 @@
     "Tejaswini Prakash": {
         "title": "Actress",
         "image": "https://example.com/tejaswini_prakash.jpg",
+        "link": "https://www.instagram.com/tejaswini_prakash/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1708,6 +1776,7 @@
     "Smriti Mandhana": {
         "title": "Cricketer",
         "image": "https://example.com/smriti_mandhana.jpg",
+        "link": "https://www.instagram.com/smriti_mandhana/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1730,6 +1799,7 @@
     "Anil Kapoor": {
         "title": "Actor",
         "image": "https://example.com/anil_kapoor.jpg",
+        "link": "https://www.instagram.com/anilskapoor/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1756,6 +1826,7 @@
     "Anupam Kher": {
         "title": "Actor",
         "image": "https://example.com/anupam_kher.jpg",
+        "link": "https://www.instagram.com/anupampkher/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1782,6 +1853,7 @@
     "Rani Chatterjee": {
         "title": "Actress",
         "image": "https://example.com/rani_chatterjee.jpg",
+        "link": "https://www.instagram.com/rani_chatterjee/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1808,6 +1880,7 @@
     "Monalisa": {
         "title": "Actress",
         "image": "https://example.com/monalisa.jpg",
+        "link": "https://www.instagram.com/monalisa/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1834,6 +1907,7 @@
     "Kajal Raghwani": {
         "title": "Actress",
         "image": "https://example.com/kajal_raghwani.jpg",
+        "link": "https://www.instagram.com/kajalraghwani/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1860,6 +1934,7 @@
     "Akshara Singh": {
         "title": "Actress",
         "image": "https://example.com/akshara_singh.jpg",
+        "link": "https://www.instagram.com/akshara_singh/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1890,6 +1965,7 @@
     "Amrapali Dubey": {
         "title": "Actress",
         "image": "https://example.com/amrapali_dubey.jpg",
+        "link": "https://www.instagram.com/amrapali1101/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1920,6 +1996,7 @@
     "Anjana Singh": {
         "title": "Actress",
         "image": "https://example.com/anjana_singh.jpg",
+        "link": "https://www.instagram.com/anjana_singh_official/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1950,6 +2027,7 @@
     "Zoya Khan": {
         "title": "Actress",
         "image": "https://example.com/zoya_khan.jpg",
+        "link": "https://www.instagram.com/zoyakhanofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -1980,6 +2058,7 @@
     "Khesari Lal Yadav": {
         "title": "Singer and Actor",
         "image": "https://example.com/khesari_lal_yadav.jpg",
+        "link": "https://www.instagram.com/khesari_lalyadav/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2010,6 +2089,7 @@
     "Pawan Singh": {
         "title": "Singer and Actor",
         "image": "https://example.com/pawan_singh.jpg",
+        "link": "https://www.instagram.com/pawansingh_official/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -2024,6 +2104,7 @@
     "Pradeep Pandey": {
         "title": "Actor",
         "image": "https://example.com/pradeep_pandey.jpg",
+        "link": "https://www.instagram.com/pradeep_pandey_chintu/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2050,6 +2131,7 @@
     "Anara Gupta": {
         "title": "Actress",
         "image": "https://example.com/anara_gupta.jpg",
+        "link": "https://www.instagram.com/anara_gupta_official/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2076,6 +2158,7 @@
     "Pooja Hegde": {
         "title": "Actress",
         "image": "https://example.com/pooja_hegde.jpg",
+        "link": "https://www.instagram.com/poojahegde/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2102,6 +2185,7 @@
     "Divyansh": {
         "title": "Singer",
         "image": "https://example.com/divyansh.jpg",
+        "link": "https://www.instagram.com/divyansh_kacholia/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2124,6 +2208,7 @@
     "Munraj": {
         "title": "Singer",
         "image": "https://example.com/munraj.jpg",
+        "link": "https://www.instagram.com/munrajofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2150,6 +2235,7 @@
     "Suhani Shah": {
         "title": "Magician",
         "image": "https://example.com/suhani_shah.jpg",
+        "link": "https://www.instagram.com/suhanishah/",
         "commercial_details": [
             {
                 "Category": "Performance",
@@ -2160,6 +2246,7 @@
     "Anup Soni": {
         "title": "Actor",
         "image": "https://example.com/anup_soni.jpg",
+        "link": "https://www.instagram.com/anupsoni10/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2186,6 +2273,7 @@
     "Rajeev Khandelwal": {
         "title": "Actor",
         "image": "https://example.com/rajeev_khandelwal.jpg",
+        "link": "https://www.instagram.com/rajeevkhandelwal/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2212,6 +2300,7 @@
     "Ranvir Shorey": {
         "title": "Actor",
         "image": "https://example.com/ranvir_shorey.jpg",
+        "link": "https://www.instagram.com/ranvirshorey/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -2226,6 +2315,7 @@
     "Anveshi Jain": {
         "title": "Actress and Model",
         "image": "https://example.com/anveshi_jain.jpg",
+        "link": "https://www.instagram.com/anveshi25/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2252,6 +2342,7 @@
     "Siddharth Chaturvedi": {
         "title": "Actor",
         "image": "https://example.com/siddharth_chaturvedi.jpg",
+        "link": "https://www.instagram.com/siddharthchaturvedi/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2278,6 +2369,7 @@
     "Arjun Rampal": {
         "title": "Actor",
         "image": "https://example.com/arjun_rampal.jpg",
+        "link": "https://www.instagram.com/arjunrampal/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2304,6 +2396,7 @@
     "Shamita Shetty": {
         "title": "Actress",
         "image": "https://example.com/shamita_shetty.jpg",
+        "link": "https://www.instagram.com/shamitashetty_official/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2330,6 +2423,7 @@
     "Hindustani Bhau": {
         "title": "YouTuber",
         "image": "https://example.com/hindustani_bhau.jpg",
+        "link": "https://www.instagram.com/hindustanibhau/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2356,6 +2450,7 @@
     "Nikki Tamboli": {
         "title": "Actress and Model",
         "image": "https://example.com/nikki_tamboli.jpg",
+        "link": "https://www.instagram.com/nikkitamboli/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2382,6 +2477,7 @@
     "Mrunal Thakur": {
         "title": "Actress",
         "image": "https://example.com/mrunal_thakur.jpg",
+        "link": "https://www.instagram.com/mrunalthakur/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2408,6 +2504,7 @@
     "Amrita Rao": {
         "title": "Actress",
         "image": "https://example.com/amrita_rao.jpg",
+        "link": "https://www.instagram.com/amrita_rao/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2434,6 +2531,8 @@
     "Pratik Gandhi": {
         "title": "Actor",
         "image": "https://example.com/pratik_gandhi.jpg",
+
+        "link": "https://www.instagram.com/pratikgandhiofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2460,6 +2559,7 @@
     "Gulshan Grover": {
         "title": "Actor",
         "image": "https://example.com/gulshan_grover.jpg",
+        "link": "https://www.instagram.com/gulshangrover/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2486,6 +2586,7 @@
     "Shakti Kapoor": {
         "title": "Actor",
         "image": "https://example.com/shakti_kapoor.jpg",
+        "link": "https://www.instagram.com/shaktikapoor/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2512,6 +2613,7 @@
     "Sara Khan": {
         "title": "Actress",
         "image": "https://example.com/sara_khan.jpg",
+        "link": "https://www.instagram.com/sarakhan/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2538,6 +2640,7 @@
     "Adaa Khan": {
         "title": "Actress",
         "image": "https://example.com/adaa_khan.jpg",
+        "link": "https://www.instagram.com/adaakhann/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2580,6 +2683,7 @@
     "Mukesh Khanna": {
         "title": "Actor",
         "image": "https://example.com/mukesh_khanna.jpg",
+        "link": "https://www.instagram.com/mukeshkhannaofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2606,6 +2710,7 @@
     "Vijay Verma": {
         "title": "Actor",
         "image": "https://example.com/vijay_verma.jpg",
+        "link": "https://www.instagram.com/itsvijayverma/",
         "commercial_details": [
             {
                 "Category": "Instagram reel",
@@ -2632,6 +2737,7 @@
     "Arjun Bijlani": {
         "title": "Actor",
         "image": "https://example.com/arjun_bijlani.jpg",
+        "link": "https://www.instagram.com/arjunbijlani/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2658,6 +2764,7 @@
     "Rahul Vaidya": {
         "title": "Singer",
         "image": "https://example.com/rahul_vaidya.jpg",
+        "link": "https://www.instagram.com/rahulvaidyarkv/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2688,6 +2795,7 @@
     "Disha Parmar": {
         "title": "Actress",
         "image": "https://example.com/disha_parmar.jpg",
+        "link": "https://www.instagram.com/dishaparmar/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2714,6 +2822,7 @@
     "Sugandha Mishra": {
         "title": "Comedian and Actress",
         "image": "https://example.com/sugandha_mishra.jpg",
+        "link": "https://www.instagram.com/sugandhamishra23/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2744,6 +2853,7 @@
     "Sanket Bhosale": {
         "title": "Comedian",
         "image": "https://example.com/sanket_bhosale.jpg",
+        "link": "https://www.instagram.com/sanketbhosale/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2774,6 +2884,7 @@
     "Raghav Juyal": {
         "title": "Dancer and Anchor",
         "image": "https://example.com/raghav_juyal.jpg",
+        "link": "https://www.instagram.com/raghavjuyal/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2804,6 +2915,7 @@
     "Dharmesh": {
         "title": "Dancer",
         "image": "https://example.com/dharmesh.jpg",
+        "link": "https://www.instagram.com/dharmesh0011/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2834,6 +2946,7 @@
     "Onima Kashyap": {
         "title": "Actress",
         "image": "https://example.com/onima_kashyap.jpg",
+        "link": "https://www.instagram.com/onima_kashyap/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2860,6 +2973,7 @@
     "Yogita Bihani": {
         "title": "Actress",
         "image": "https://example.com/yogita_bihani.jpg",
+        "link": "https://www.instagram.com/yogitabihani/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2886,6 +3000,7 @@
     "Ravi Kishan": {
         "title": "Actor and Politician",
         "image": "https://example.com/ravi_kishan.jpg",
+        "link": "https://www.instagram.com/ravikishann/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2912,6 +3027,7 @@
     "Kiku Sharda": {
         "title": "Comedian and Actor",
         "image": "https://example.com/kiku_sharda.jpg",
+        "link": "https://www.instagram.com/kikusharda/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2942,6 +3058,7 @@
     "Stefy Patel": {
         "title": "Actress",
         "image": "https://example.com/stefy_patel.jpg",
+        "link": "https://www.instagram.com/stefypatel/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2968,6 +3085,7 @@
     "Sumati Singh": {
         "title": "Actress",
         "image": "https://example.com/sumati_singh.jpg",
+        "link": "https://www.instagram.com/sumatisingh/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -2994,6 +3112,7 @@
     "Nyraa Banerjee": {
         "title": "Actress",
         "image": "https://example.com/nyraa_banerjee.jpg",
+        "link": "https://www.instagram.com/nyraabanejee/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3020,6 +3139,7 @@
     "Helly Shah": {
         "title": "Actress",
         "image": "https://example.com/helly_shah.jpg",
+        "link": "https://www.instagram.com/hellyshahofficial/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3046,6 +3166,7 @@
     "Karan Sharma": {
         "title": "Actor",
         "image": "https://example.com/karan_sharma.jpg",
+        "link": "https://www.instagram.com/karansharmas/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3072,6 +3193,7 @@
     "Gautam Vig": {
         "title": "Actor",
         "image": "https://example.com/gautam_vig.jpg",
+        "link": "https://www.instagram.com/gautamvig/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3098,6 +3220,7 @@
     "Donal Bisht": {
         "title": "Actress",
         "image": "https://example.com/donal_bisht.jpg",
+        "link": "https://www.instagram.com/donalbisht/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3124,6 +3247,7 @@
     "Shivin Narang": {
         "title": "Actor",
         "image": "https://example.com/shivin_narang.jpg",
+        "link": "https://www.instagram.com/shivin7/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3150,6 +3274,7 @@
     "Zoya Afroz": {
         "title": "Actress",
         "image": "https://example.com/zoya_afroz.jpg",
+        "link": "https://www.instagram.com/zoyafrozz/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3176,6 +3301,7 @@
     "Nishant Malkani": {
         "title": "Actor",
         "image": "https://example.com/nishant_malkani.jpg",
+        "link": "https://www.instagram.com/nishantmalkani/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3202,6 +3328,7 @@
     "Manya Singh": {
         "title": "Model and Actress",
         "image": "https://example.com/manya_singh.jpg",
+        "link": "https://www.instagram.com/manyasingh993/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3228,6 +3355,7 @@
     "Sargun Kaur Luthra": {
         "title": "Actress",
         "image": "https://example.com/sargun_kaur_luthra.jpg",
+        "link": "https://www.instagram.com/sargun_luthra/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3254,6 +3382,7 @@
     "Ahsas Channa": {
         "title": "Actress",
         "image": "https://example.com/ahsas_channa.jpg",
+        "link": "https://www.instagram.com/ahsaschanna/",
         "commercial_details": [
             {
                 "Category": "Reel",
@@ -3280,6 +3409,7 @@
     "Athiya Shetty": {
         "title": "Actress",
         "image": "https://example.com/athiya_shetty.jpg",
+        "link": "https://www.instagram.com/athiyashetty/",
         "commercial_details": [
             {
                 "Category": "Appearance",
@@ -3290,6 +3420,7 @@
     "Sahil Khattar": {
         "title": "Actor",
         "image": "https://example.com/sahil_khattar.jpg",
+        "link": "https://www.instagram.com/sahilkhattar/",
         "commercial_details": []
     }
 }

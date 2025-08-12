@@ -3,20 +3,21 @@ import { Grid, Typography, Box, TextField, Button, IconButton, Link } from '@mui
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 const Footer = () => {
     return (
-        <Box component="footer" sx={{ bgcolor: '#222', color: '#fff', pt: 6, pb: 3 }}>
+        <Box component="footer" sx={{ bgcolor: '#00000000', color: '#fff', pt: 6, pb: 3 }}>
             <Box sx={{ maxWidth: 1200, mx: 'auto', px: 2 }}>
                 <Grid container spacing={4}>
                     {/* About */}
                     <Grid size={{ xs: 12, sm: 6, md: 3 }} >
-                        <Typography variant="h6" gutterBottom sx={{ fontWeight: 500 }}>
-                            About
-                        </Typography>
+
+                        <img src="/footerlogo.svg" alt="" width="200px" />
                         <Typography variant="body2" sx={{ lineHeight: 1.6, }}>
-                            Managing Bollywood Celebrities, Television Actors and Actresses, Superstars of Marathi Cinemas for Special Guest appearances, Performances, Product launch and Brand Promotions or any other special occasions or events.
+                            Celeb India Vision is a
+                            Managing Bollywood
+                            Celebrities, Television Actors and Actresses, Superstars of  Indian Cinema for Special Guest appearances, Performances, Product launch and Brand Promotions or any other special occasions or events.
                         </Typography>
                     </Grid>
 
@@ -27,21 +28,25 @@ const Footer = () => {
                         </Typography>
                         <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
                             <LocationOnIcon sx={{ mr: 1, mt: '3px' }} />
-                            <Typography variant="body2"  fontFamily={"Poppins"} >
-                                Platinum Towers
-                                Off Juhu Lane
-                                Andheri West
-                                Mumbai 400053
-                                Landmark The Club
+                            <Typography variant="body2" fontFamily={"Poppins"} >
+                                309, 3rd floor, Sahitya Hills & icon, Nava Naroda, Ahmedabad, Gujarat - 382330.
+                            </Typography>
+                        </Box>
+                        <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 1 }}>
+
+                            <AccessTimeIcon sx={{ mr: 1, mt: 0.3 }} />
+                            <Typography variant="body2" fontFamily={"Poppins"} >
+                                Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+                                10:00 - 06:30
                             </Typography>
                         </Box>
                         <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                             <PhoneIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2" >+91 884-910-4707</Typography>
+                            <Box component={Link} href='tel:+91 9054510329' fontFamily={"Poppins"} sx={{ color: "white", textDecoration: "none" }}> +91 9054510329</Box>
                         </Box>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <EmailIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2" >hello@celebsbooking.com</Typography>
+                            <Box component={Link} href='emailto:celebindiavision@gmail.com' fontFamily={"Poppins"} sx={{ color: "white", textDecoration: "none" }}> celebindiavision@gmail.com</Box>
                         </Box>
                     </Grid>
 
@@ -127,28 +132,40 @@ const Footer = () => {
 
             {/* Copyright */}
             <Box sx={{ bgcolor: '#111', mt: 6, py: 2 }}>
-                <Box sx={{ maxWidth: 1200, mx: 'auto', px: 2 }}>
-                    <Grid container alignItems="center" justifyContent="space-between">
-                        <Grid size={{ xs: 12 }} mx="auto">
-                            <Typography variant="caption" sx={{ color: '#aaa' }}>
-                                © Copyright 2017 - Mentor by Vikas Gade,&nbsp;
+                <Box sx={{ maxWidth: 1200, m: 'auto', px: 2 }}>
+                    <Grid container alignItems="center" textAlign={"center"} spacing={1}>
+                        <Grid size={{ xs: 12 }} >
+                            <Typography
+                                variant="caption"
+                                sx={{ color: '#aaa', textAlign: 'center' }}
+                            >
+                                © {new Date().getFullYear()} - Mentor by Vikas Gade,&nbsp;
                                 Developed by{' '}
                                 <Link
-                                    href="#"
-                                    sx={{ color: '#fff', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
+                                    href="mailto:Jeeva01424@gmail.com"
+                                    sx={{
+                                        color: '#fff',
+                                        textDecoration: 'none',
+                                        '&:hover': { textDecoration: 'underline' }
+                                    }}
                                 >
                                     Jeeva01424@gmail.com
                                 </Link>
                             </Typography>
                         </Grid>
-                        <Grid size={{ xs: 12 }} md="auto" sx={{ mt: { xs: 1, md: 0 } }}>
-                            <Typography variant="caption" sx={{ color: '#aaa', textAlign: { xs: 'left', md: 'right' } }}>
-                                **Images are for representation only | **All rights reserved with respective owner's
+                        <Grid size={{ xs: 12 }}>
+                            <Typography
+                                variant="caption"
+                                sx={{ color: '#aaa', textAlign: 'center' }}
+                            >
+                                **Images are for representation only | **All rights reserved with
+                                respective owners
                             </Typography>
                         </Grid>
                     </Grid>
                 </Box>
             </Box>
+
         </Box>
     );
 };

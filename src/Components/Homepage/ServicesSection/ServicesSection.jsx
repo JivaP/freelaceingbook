@@ -227,14 +227,16 @@ import {
     Star,
     Campaign,
     MovieFilter,
-    Event
+    Event,
+    VideoCameraFront,
+    Groups
 } from '@mui/icons-material';
 import { motion, useInView } from 'framer-motion';
 import CountUp from 'react-countup';
 import AnimatedHeading from '../../../Common/ui/Heading/Heading';
 
 const stats = [
-    { icon: <WorkOutline fontSize="large" />, label: 'Years in Business', count: 2 },
+    { icon: <WorkOutline fontSize="large" />, label: 'Years in Business', count: 5 },
     { icon: <Group fontSize="large" />, label: 'Talent Coordinated', count: 50 },
     { icon: <Tag fontSize="large" />, label: 'Brands Associated', count: 24 },
     { icon: <Celebration fontSize="large" />, label: 'Past Events', count: 80 },
@@ -245,6 +247,17 @@ const services = [
     { icon: <Campaign fontSize="large" />, title: 'Digital Promotions', desc: 'We promote young aspiring actors on digital platforms.' },
     { icon: <MovieFilter fontSize="large" />, title: 'Film Promotions', desc: 'We undertake Film Promotions in various cities.' },
     { icon: <Event fontSize="large" />, title: 'Special Events', desc: 'We arrange 1 to 1 meetings with Celebs for privileged fans.' },
+    {
+        icon: <VideoCameraFront fontSize="large" />,
+        title: 'UCG Videos',
+        desc: 'Exclusive, personalized video messages from celebrities, tailored just for you.'
+    },
+    {
+        icon: <Groups  fontSize="large" />,
+        title: 'Influencer Promotion',
+        desc: 'Boost your brand’s reach with authentic endorsements from top influencers.'
+    }
+
 ];
 
 const StyledPaper = styled(Paper)(({ theme }) => ({

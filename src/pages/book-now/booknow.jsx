@@ -72,7 +72,7 @@ export default function Booknow() {
                                     fontWeight: 700,
                                 }}
                             >
-                                ENQUIRY FORM
+                                INQUIRY  FORM
                             </Typography>
                         </Box>
                     </Box>
