@@ -17,7 +17,6 @@ import {
     Collapse,
     useMediaQuery,
     useTheme,
-    Link,
 } from '@mui/material';
 import {
     YouTube,
@@ -26,6 +25,7 @@ import {
     ExpandLess, WhatsApp, Instagram,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import "../../App.css";
 
 
@@ -197,7 +197,7 @@ export default function CustomHeader() {
                                                 <MenuItem
                                                     key={idx}
                                                     component="a"
-                                                    href={subItem.path}
+                                                    to={subItem.path}
 
 
                                                     onClick={handleMenuClose}
@@ -224,7 +224,7 @@ export default function CustomHeader() {
                                     <Button
                                         key={index}
                                         component={Link}
-                                        href={item.path}
+                                        to={item.path}
                                         sx={{
                                             fontFamily: 'Poppins',
                                             textTransform: 'uppercase',
@@ -312,9 +312,9 @@ export default function CustomHeader() {
                                                 <ListItem
                                                     button
                                                     key={idx}
-                                                    component="a"
-                                                    href={subItem.path}
-
+                                                    component={Link}
+                                                    to={subItem.path}
+                                                   
                                                     onClick={toggleMobileDrawer}
                                                     sx={{
                                                         color: "white",
@@ -344,7 +344,7 @@ export default function CustomHeader() {
                                     button
                                     key={index}
                                     component={Link}
-                                    href={item.path}
+                                    to={item.path}
                                     onClick={toggleMobileDrawer}
                                     sx={{
                                         color: "white",
