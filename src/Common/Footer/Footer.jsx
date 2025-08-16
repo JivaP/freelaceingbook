@@ -58,11 +58,11 @@ const Footer = () => {
                         <Grid container spacing={1}>
                             {[
                                 '/assert/Celebrities/Divyanka.jpg',
-                                '/assert/footer/item2.jpg',
-                                '/assert/footer/item3.jpg',
-                                '/assert/footer/item4.jpg',
-                                '/assert/footer/item5.jpg',
-                                '/assert/footer/item6.jpg',
+                                '/assert/footer/item12.jpeg',
+                                '/assert/footer/item8.jpeg',
+                                '/assert/footer/item9.jpeg',
+                                '/assert/footer/item10.jpeg',
+                                '/assert/footer/item11.jpeg',
                             ].map((src, i) => (
                                 <Grid size={{ xs: 4, sm: 4, md: 4 }} key={i}>
                                     <Link href="#" underline="none" sx={{ display: 'block' }}>
@@ -70,7 +70,7 @@ const Footer = () => {
                                             component="img"
                                             src={src}
                                             alt={`Instagram item ${i + 1}`}
-                                            sx={{ width: '100%', borderRadius: 1, display: 'block' }}
+                                            sx={{ width: '100%', borderRadius: 1, display: 'block' ,height:"90px"}}
                                         />
                                     </Link>
                                 </Grid>
