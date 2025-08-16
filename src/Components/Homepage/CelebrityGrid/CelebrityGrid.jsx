@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Grid, Card, CardMedia, CardContent, Typography, Container, Box, useTheme } from '@mui/material';
 import { motion } from 'framer-motion';
 import BookNowButton from '../../../Common/ui/Button';
