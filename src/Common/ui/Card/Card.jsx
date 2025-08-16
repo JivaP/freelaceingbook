@@ -56,7 +56,7 @@ const CelebrityCards = ({ celebrityData }) => {
                                     />
 
                                     {/* Compact hover overlay */}
-                                    <Box className="celebrity-overlay" sx={{
+                                    {/* <Box className="celebrity-overlay" sx={{
                                         position: 'absolute',
                                         top: 0,
                                         left: 0,
@@ -81,10 +81,10 @@ const CelebrityCards = ({ celebrityData }) => {
                                                     : details.description}
                                             </Typography>
                                         )}
-                                    </Box>
+                                    </Box> */}
 
                                     {/* Compact card content */}
-                                    <CardContent sx={{ p: 2 }}>
+                                    {/* <CardContent sx={{ p: 2 }}>
                                         <Typography variant="subtitle1" fontWeight={600} noWrap>
                                             {name}
                                         </Typography>
@@ -108,7 +108,7 @@ const CelebrityCards = ({ celebrityData }) => {
                                                 </Typography>
                                             )}
                                         </List>
-                                    </CardContent>
+                                    </CardContent> */}
                                 </Card>
                             </Box>
                         </motion.div>
