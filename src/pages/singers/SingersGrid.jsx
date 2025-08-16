@@ -5,12 +5,10 @@ import { motion } from 'framer-motion';
 import BookNowButton from '../../Common/ui/Button';
 
 const celebrities = [
-    { name: 'Mauli Dave', img: '/assert/Singers/singer1.jpg', link: 'alia.php' },
-    { name: ' Himani Kapoor', img: '/assert/Singers/singer2.jpg', link: 'katrina.php' },
-    { name: 'Kanika Kapoor', img: '/assert/Singers/singer3.jpg', link: 'ileana.php' },
-    { name: 'Neha Kakkar', img: '/assert/Singers/singer4.jpg', link: 'urvasi.php' },
-    { name: 'Neha Chauhan', img: '/assert/Singers/singer5.jpg', link: 'shruti.php' },
-    { name: 'Yutika Verma', img: '/assert/Singers/singer6.jpg', link: 'radhika.php' },
+    { name: 'Shreya Ghoshal', img: '/assert/Singers/singer8.jpeg', link: '' },
+    { name: ' Darshan Raval', img: '/assert/Singers/singer9.jpeg', link: '' },
+    { name: ' Neha Kakkar', img: '/assert/Singers/singer10.jpeg', link: '' },
+
 
 ];
 
@@ -33,7 +31,7 @@ const SingersGrid = () => {
                                         // height="340"
                                         image={celeb.img}
                                         alt={celeb.name}
-                                        sx={{ objectFit: 'cover' }}
+                                        sx={{ objectFit: 'contain', height: '340px', width: '100%' }}
                                     />
                                     <CardContent>
                                         <Typography variant="h6" gutterBottom sx={{ fontFamily: "Montserrat" }}>

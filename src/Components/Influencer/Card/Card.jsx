@@ -6,10 +6,15 @@ import BookNowButton from '../../../Common/ui/Button';
 import AnimatedHeading from '../../../Common/ui/Heading/Heading';
 
 const celebrities = [
-    { name: 'Kiara Advani', image: '/assert/CelebrityGrid/Kiara Advani.jpeg' },
-    { name: 'Kriti Kharbanda', image: '/assert/CelebrityGrid/Kriti Kharbanda.jpeg' },
-    { name: 'Bharti Singh', image: '/assert/CelebrityGrid/Bharti Singh.jpeg' },
-    { name: 'Amrita Rao', image: '/assert/CelebrityGrid/Amrita Rao.jpeg' },
+
+    { name: 'Jannat Zubair', image: '/assert/Influencer/Jannat Zubair.jpeg' },
+    { name: 'Faizal Shaikh', image: '/assert/Influencer/Faizal Shaikh.jpeg' },
+    { name: 'Anushka Sen', image: '/assert/Influencer/Anushka Sen.jpeg' },
+    { name: 'Bhuvan Bam', image: '/assert/Influencer/Bhuvan Bam.jpeg' },
+    { name: 'Kusha Kapila', image: '/assert/Influencer/Kusha Kapila.jpeg' },
+    { name: 'Ajay Nagar', image: '/assert/Influencer/Ajay Nagar.jpeg' },
+    { name: 'Arishfa Khan', image: '/assert/Influencer/Arishfa Khan.jpeg' },
+    { name: 'Elvish Yadav', image: '/assert/Influencer/Elvish Yadav.jpeg' },
 ];
 
 const cardVariants = {
@@ -33,7 +38,7 @@ const cardVariants = {
     }
 };
 
-export default function CelebrityGrid() {
+export default function InfluencerGrid() {
     const theme = useTheme();
 
     return (
@@ -45,7 +50,7 @@ export default function CelebrityGrid() {
             <Container maxWidth="lg">
 
 
-                <AnimatedHeading name={"Featured Celebrities"} />
+                <AnimatedHeading name={"Influencer Zone"} />
 
                 <Grid container spacing={4} justifyContent="center">
                     {celebrities.map((celeb, index) => (
@@ -133,10 +138,10 @@ export default function CelebrityGrid() {
                                             display: 'flex',
                                             justifyContent: 'center',
                                             // mt: 2
-                                            px:2
+                                            px: 2
                                         }}>
                                             <BookNowButton
-                                            fullWidth={false}
+                                                fullWidth={false}
                                                 sx={{
                                                     // px: 3,
                                                     // py: 1,

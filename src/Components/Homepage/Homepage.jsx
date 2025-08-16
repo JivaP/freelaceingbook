@@ -9,6 +9,7 @@ import CelebrityProjects from './Celebrities/CelebrityProjects'
 import Bookingmain from './Book-Now/bookingmain'
 import CelebrityGrid from './CelebrityGrid/CelebrityGrid'
 import ScrollTopButton from '../../Common/ui/ScrollTopButton/ScrollTopButton'
+import InfluencerGrid from '../Influencer/Card/Card'
 
 
 export default function Homepage() {
@@ -22,6 +23,7 @@ export default function Homepage() {
             <CelebrityProjects />
             <Bookingmain />
             <CelebrityGrid />
+            <InfluencerGrid />
 
         </>
     )

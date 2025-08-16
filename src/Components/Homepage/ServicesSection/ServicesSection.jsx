@@ -249,7 +249,7 @@ const services = [
     { icon: <Event fontSize="large" />, title: 'Special Events', desc: 'We arrange 1 to 1 meetings with Celebs for privileged fans.' },
     {
         icon: <VideoCameraFront fontSize="large" />,
-        title: 'UCG Videos',
+        title: 'UGC Videos',
         desc: 'Exclusive, personalized video messages from celebrities, tailored just for you.'
     },
     {
