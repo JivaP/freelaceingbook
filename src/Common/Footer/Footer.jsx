@@ -37,7 +37,7 @@ const Footer = () => {
                             <AccessTimeIcon sx={{ mr: 1, mt: 0.3 }} />
                             <Typography variant="body2" fontFamily={"Poppins"} >
                                 Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
-                                10:00 - 06:30
+                                10:30 - 06:30
                             </Typography>
                         </Box>
                         <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>

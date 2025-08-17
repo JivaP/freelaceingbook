@@ -175,7 +175,7 @@ const celebrities = [
     { name: 'Rashmika Mandanna', image: '/assert/Celebrities/RashmikaMandanna.jpeg', link: 'https://www.instagram.com/rashmika_mandanna/' },
     { name: 'Hina Khan', image: '/assert/Celebrities/HinaKhan.jpeg', link: 'https://www.instagram.com/realhinakhan/' },
     { name: 'Alia Bhatt', image: '/assert/Celebrities/AliaBhatt.jpeg', link: 'https://www.instagram.com/ileana_official/' },
-    { name: 'Varun Dhavan', image: '/assert/CelebrityZone/Varun-Dhavan2.jpeg', link: 'https://www.instagram.com/varundvn/' },
+    // { name: 'Varun Dhavan', image: '/assert/CelebrityZone/Varun-Dhavan2.jpeg', link: 'https://www.instagram.com/varundvn/' },
 ];
 
 const cardVariants = {

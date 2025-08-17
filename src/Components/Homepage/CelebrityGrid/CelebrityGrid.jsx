@@ -7,8 +7,8 @@ import AnimatedHeading from '../../../Common/ui/Heading/Heading';
 const celebrities = [
     { name: 'Kiara Advani', image: '/assert/CelebrityGrid/Kiara Advani.jpeg' },
     { name: 'Kriti Kharbanda', image: '/assert/CelebrityGrid/Kriti Kharbanda.jpeg' },
-    { name: 'Bharti Singh', image: '/assert/CelebrityGrid/Bharti Singh.jpeg' },
-    { name: 'Amrita Rao', image: '/assert/CelebrityGrid/Amrita Rao.jpeg' },
+    { name: ' Amrita Rao', image: '/assert/CelebrityGrid/Bharti Singh.jpeg' },
+    { name: 'Bharti Singh  ', image: '/assert/CelebrityGrid/Amrita Rao.jpeg' },
 ];
 
 const cardVariants = {
@@ -132,10 +132,10 @@ export default function CelebrityGrid() {
                                             display: 'flex',
                                             justifyContent: 'center',
                                             // mt: 2
-                                            px:2
+                                            px: 2
                                         }}>
                                             <BookNowButton
-                                            fullWidth={false}
+                                                fullWidth={false}
                                                 sx={{
                                                     // px: 3,
                                                     // py: 1,
